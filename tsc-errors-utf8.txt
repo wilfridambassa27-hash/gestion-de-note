@@ -1,0 +1,5 @@
+﻿scripts/seed-gl-2026.ts(149,11): error TS2353: Object literal may only specify known properties, and 'typenote' does not exist in type 'Without<NoteCreateInput, NoteUncheckedCreateInput> & NoteUncheckedCreateInput'.
+src/app/api/notes/[id]/contester/route.ts(17,39): error TS2339: Property 'contestation' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+src/app/api/retrographique/route.ts(269,49): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/app/api/retrographique/route.ts(270,27): error TS7006: Parameter 'n' implicitly has an 'any' type.
+src/app/api/retrographique/route.ts(272,43): error TS7006: Parameter 'n' implicitly has an 'any' type.

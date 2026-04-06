@@ -1,0 +1,114 @@
+﻿
+========== NETTOYAGE DES CLASSES DUPLIQU├ëES ==========
+
+Classes avant nettoyage: 40
+
+­ƒôî "Arts & Design A" - Garder: cls-a&d1-a (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-a&d2-a (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-a&d2-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-a&d6-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-a&d6-a supprim├®e
+
+­ƒôî "Arts & Design B" - Garder: cls-a&d1-b (1 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-a&d6-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-a&d6-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-a&d2-b (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-a&d2-b supprim├®e
+
+­ƒôî "G├®nie Civil et Environnement A" - Garder: cls-gce2-a (0 ├®tud, 11 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gce4-a (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-gce4-a supprim├®e
+
+­ƒôî "G├®nie Civil et Environnement B" - Garder: cls-gce4-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gce2-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gce2-b supprim├®e
+
+­ƒôî "G├®nie ├ëlectrique et Industrielle A" - Garder: cls-g├®i5-a (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-g├®e7-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-g├®e7-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-g├®e9-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-g├®e9-a supprim├®e
+
+­ƒôî "G├®nie ├ëlectrique et Industrielle B" - Garder: cls-g├®i5-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-g├®e9-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-g├®e9-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-g├®e7-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-g├®e7-b supprim├®e
+
+­ƒôî "G├®nie Industriel et Maintenance A" - Garder: cls-gie6-a (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gim1-a (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-gim1-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-gie9-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gie9-a supprim├®e
+
+­ƒôî "G├®nie Industriel et Maintenance B" - Garder: cls-gie9-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gim1-b (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-gim1-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-gie6-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gie6-b supprim├®e
+
+­ƒôî "G├®nie Logiciel (Software Engineering) A" - Garder: cls-gl(8-a (1 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gl(1-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gl(1-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-gl(6-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gl(6-a supprim├®e
+
+­ƒôî "G├®nie Logiciel (Software Engineering) B" - Garder: cls-gl(1-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-gl(8-b (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-gl(8-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-gl(6-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-gl(6-b supprim├®e
+
+­ƒôî "Ing├®nierie A" - Garder: cls-i3-a (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-i8-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-i8-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-i1-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-i1-a supprim├®e
+
+­ƒôî "Ing├®nierie B" - Garder: cls-i1-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-i8-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-i8-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-i3-b (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-i3-b supprim├®e
+
+­ƒôî "M├®decine A" - Garder: cls-m2-a (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-m8-a (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-m8-a supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-m3-a (0 ├®tud, 8 mati├¿res)
+     ­ƒùæ´©Å  8 emploiTemps supprim├®s
+     Ô£à Classe cls-m3-a supprim├®e
+
+­ƒôî "M├®decine B" - Garder: cls-m3-b (0 ├®tud, 8 mati├¿res)
+  ­ƒùæ´©Å  Supprimer: cls-m8-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-m8-b supprim├®e
+  ­ƒùæ´©Å  Supprimer: cls-m2-b (0 ├®tud, 8 mati├¿res)
+     Ô£à Classe cls-m2-b supprim├®e
+
+========== R├ëSULTAT FINAL ==========
+Classes avant: 40
+Classes supprim├®es: 26
+Classes restantes: 14
+├ëtudiants migr├®s: 0
+
+Classes conserv├®es:
+  Ô£à Arts & Design A (Arts & Design) - ID: cls-a&d1-a
+  Ô£à Arts & Design B (Arts & Design) - ID: cls-a&d1-b
+  Ô£à G├®nie Civil et Environnement A (G├®nie Civil et Environnement) - ID: cls-gce2-a
+  Ô£à G├®nie Civil et Environnement B (G├®nie Civil et Environnement) - ID: cls-gce4-b
+  Ô£à G├®nie ├ëlectrique et Industrielle A (G├®nie ├ëlectrique et Industrielle) - ID: cls-g├®i5-a
+  Ô£à G├®nie ├ëlectrique et Industrielle B (G├®nie ├ëlectrique et Industrielle) - ID: cls-g├®i5-b
+  Ô£à G├®nie Industriel et Maintenance A (G├®nie Industriel et Maintenance) - ID: cls-gie6-a
+  Ô£à G├®nie Industriel et Maintenance B (G├®nie Industriel et Maintenance) - ID: cls-gie9-b
+  Ô£à G├®nie Logiciel (Software Engineering) A (G├®nie Logiciel (Software Engineering)) - ID: cls-gl(8-a
+  Ô£à G├®nie Logiciel (Software Engineering) B (G├®nie Logiciel (Software Engineering)) - ID: cls-gl(1-b
+  Ô£à Ing├®nierie A (Ing├®nierie) - ID: cls-i3-a
+  Ô£à Ing├®nierie B (Ing├®nierie) - ID: cls-i1-b
+  Ô£à M├®decine A (M├®decine) - ID: cls-m2-a
+  Ô£à M├®decine B (M├®decine) - ID: cls-m3-b

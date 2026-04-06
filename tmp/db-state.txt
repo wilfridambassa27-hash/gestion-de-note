@@ -1,0 +1,23 @@
+=== CLASSES EXISTANTES ===
+ID: cls-a&d1-a | Nom: Arts & Design A | Filière: Arts & Design | Effectif: 32
+ID: cls-a&d1-b | Nom: Arts & Design B | Filière: Arts & Design | Effectif: 32
+ID: cls-gce2-a | Nom: Génie Civil et Environnement A | Filière: Génie Civil et Environnement | Effectif: 30
+ID: cls-gce4-b | Nom: Génie Civil et Environnement B | Filière: Génie Civil et Environnement | Effectif: 32
+ID: cls-géi5-a | Nom: Génie Électrique et Industrielle A | Filière: Génie Électrique et Industrielle | Effectif: 32
+ID: cls-géi5-b | Nom: Génie Électrique et Industrielle B | Filière: Génie Électrique et Industrielle | Effectif: 32
+ID: cls-gie6-a | Nom: Génie Industriel et Maintenance A | Filière: Génie Industriel et Maintenance | Effectif: 32
+ID: cls-gie9-b | Nom: Génie Industriel et Maintenance B | Filière: Génie Industriel et Maintenance | Effectif: 32
+ID: cls-gl(8-a | Nom: Génie Logiciel (Software Engineering) A | Filière: Génie Logiciel (Software Engineering) | Effectif: 32
+ID: cls-gl(1-b | Nom: Génie Logiciel (Software Engineering) B | Filière: Génie Logiciel (Software Engineering) | Effectif: 32
+ID: cls-i3-a | Nom: Ingénierie A | Filière: Ingénierie | Effectif: 32
+ID: cls-i1-b | Nom: Ingénierie B | Filière: Ingénierie | Effectif: 32
+ID: cls-m2-a | Nom: Médecine A | Filière: Médecine | Effectif: 32
+ID: cls-m3-b | Nom: Médecine B | Filière: Médecine | Effectif: 32
+
+Total classes: 14
+
+=== ÉTUDIANTS EXISTANTS ===
+ID: cmngb8ykj0004dj4f5d81s0m6 | Mat: ETU-1775063956479 | Classe: cls-a&d1-b | ate Jean
+ID: cmnfmt0fe0005ebhp1jm4k6d4 | Mat: ISTA-411T249925 | Classe: cls-gl(8-a | ATEBA Jules
+
+Total étudiants: 2

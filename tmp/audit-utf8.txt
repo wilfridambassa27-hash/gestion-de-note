@@ -1,0 +1,66 @@
+﻿
+========== AUDIT DES CLASSES ==========
+
+Total classes: 40
+
+=== CLASSES EN TRIPLE (A, B, C) ===
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "Arts & Design"
+   - Arts & Design A | Mati├¿res: 8
+   - Arts & Design A | Mati├¿res: 8
+   - Arts & Design A | Mati├¿res: 8
+   - Arts & Design B | Mati├¿res: 8
+   - Arts & Design B | Mati├¿res: 8
+   - Arts & Design B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (4 classes) - Base: "G├®nie Civil et Environnement"
+   - G├®nie Civil et Environnement A | Mati├¿res: 11
+   - G├®nie Civil et Environnement A | Mati├¿res: 8
+   - G├®nie Civil et Environnement B | Mati├¿res: 8
+   - G├®nie Civil et Environnement B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "G├®nie ├ëlectrique et Industrielle"
+   - G├®nie ├ëlectrique et Industrielle A | Mati├¿res: 8
+   - G├®nie ├ëlectrique et Industrielle A | Mati├¿res: 8
+   - G├®nie ├ëlectrique et Industrielle A | Mati├¿res: 8
+   - G├®nie ├ëlectrique et Industrielle B | Mati├¿res: 8
+   - G├®nie ├ëlectrique et Industrielle B | Mati├¿res: 8
+   - G├®nie ├ëlectrique et Industrielle B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "G├®nie Industriel et Maintenance"
+   - G├®nie Industriel et Maintenance A | Mati├¿res: 8
+   - G├®nie Industriel et Maintenance A | Mati├¿res: 8
+   - G├®nie Industriel et Maintenance A | Mati├¿res: 8
+   - G├®nie Industriel et Maintenance B | Mati├¿res: 8
+   - G├®nie Industriel et Maintenance B | Mati├¿res: 8
+   - G├®nie Industriel et Maintenance B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "G├®nie Logiciel (Software Engineering)"
+   - G├®nie Logiciel (Software Engineering) A | Mati├¿res: 8
+   - G├®nie Logiciel (Software Engineering) A | Mati├¿res: 8
+   - G├®nie Logiciel (Software Engineering) A | Mati├¿res: 8
+   - G├®nie Logiciel (Software Engineering) B | Mati├¿res: 8
+   - G├®nie Logiciel (Software Engineering) B | Mati├¿res: 8
+   - G├®nie Logiciel (Software Engineering) B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "Ing├®nierie"
+   - Ing├®nierie A | Mati├¿res: 8
+   - Ing├®nierie A | Mati├¿res: 8
+   - Ing├®nierie A | Mati├¿res: 8
+   - Ing├®nierie B | Mati├¿res: 8
+   - Ing├®nierie B | Mati├¿res: 8
+   - Ing├®nierie B | Mati├¿res: 8
+
+ÔÜá´©Å  Groupe inattendu (6 classes) - Base: "M├®decine"
+   - M├®decine A | Mati├¿res: 8
+   - M├®decine A | Mati├¿res: 8
+   - M├®decine A | Mati├¿res: 8
+   - M├®decine B | Mati├¿res: 8
+   - M├®decine B | Mati├¿res: 8
+   - M├®decine B | Mati├¿res: 8
+
+
+=== R├ëSUM├ë ===
+Total triples d├®tect├®s: 0
+Triples avec mati├¿res en C (├á migrer): 0
+Triples sans mati├¿res en C (├á supprimer): 0

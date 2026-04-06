@@ -1,0 +1,42 @@
+﻿ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù
+Ôòæ  INSERTION DE 200 ├ëTUDIANTS ÔÇö EduNotes v3.0     Ôòæ
+ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ
+
+Ô£à 14 classes actives trouv├®es en BD.
+
+­ƒôï 200 ├®tudiants ├á ins├®rer.
+
+   Ôù╝ Lot 1 trait├® ÔÇö 10% (20 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 2 trait├® ÔÇö 20% (40 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 3 trait├® ÔÇö 30% (60 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 4 trait├® ÔÇö 40% (80 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 5 trait├® ÔÇö 50% (100 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 6 trait├® ÔÇö 60% (120 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 7 trait├® ÔÇö 70% (140 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 8 trait├® ÔÇö 80% (160 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 9 trait├® ÔÇö 90% (180 ins├®r├®s, 0 ignor├®s)
+   Ôù╝ Lot 10 trait├® ÔÇö 100% (200 ins├®r├®s, 0 ignor├®s)
+
+­ƒöä Mise ├á jour des effectifs...
+
+ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù
+Ôòæ          RAPPORT D'INSERTION FINAL               Ôòæ
+ÔòáÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòú
+Ôòæ  Ô£à Ins├®r├®s  : 200                              Ôòæ
+Ôòæ  ÔÅ¡´©Å  Ignor├®s  :   0                              Ôòæ
+ÔòáÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòú
+Ôòæ  G├®nie Logiciel (Software Engineerin :  23 ├®tudiants Ôòæ
+Ôòæ  G├®nie Logiciel (Software Engineerin :  20 ├®tudiants Ôòæ
+Ôòæ  Ing├®nierie A                        :  18 ├®tudiants Ôòæ
+Ôòæ  Ing├®nierie B                        :  17 ├®tudiants Ôòæ
+Ôòæ  G├®nie ├ëlectrique et Industrielle A  :  16 ├®tudiants Ôòæ
+Ôòæ  G├®nie ├ëlectrique et Industrielle B  :  15 ├®tudiants Ôòæ
+Ôòæ  G├®nie Civil et Environnement A      :  14 ├®tudiants Ôòæ
+Ôòæ  G├®nie Civil et Environnement B      :  13 ├®tudiants Ôòæ
+Ôòæ  G├®nie Industriel et Maintenance A   :  13 ├®tudiants Ôòæ
+Ôòæ  G├®nie Industriel et Maintenance B   :  12 ├®tudiants Ôòæ
+Ôòæ  M├®decine A                          :  11 ├®tudiants Ôòæ
+Ôòæ  M├®decine B                          :  10 ├®tudiants Ôòæ
+Ôòæ  Arts & Design A                     :  10 ├®tudiants Ôòæ
+Ôòæ  Arts & Design B                     :  10 ├®tudiants Ôòæ
+ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ

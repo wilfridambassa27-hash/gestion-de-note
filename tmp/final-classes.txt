@@ -1,0 +1,16 @@
+Total restant: 14 classes
+
+"Arts & Design A" | 8 matières | 0 étudiants | id=cls-a&d1-a
+"Arts & Design B" | 8 matières | 1 étudiants | id=cls-a&d1-b
+"Génie Civil et Environnement A" | 11 matières | 0 étudiants | id=cls-gce2-a
+"Génie Civil et Environnement B" | 8 matières | 0 étudiants | id=cls-gce4-b
+"Génie Électrique et Industrielle A" | 8 matières | 0 étudiants | id=cls-géi5-a
+"Génie Électrique et Industrielle B" | 8 matières | 0 étudiants | id=cls-géi5-b
+"Génie Industriel et Maintenance A" | 8 matières | 0 étudiants | id=cls-gie6-a
+"Génie Industriel et Maintenance B" | 8 matières | 0 étudiants | id=cls-gie9-b
+"Génie Logiciel (Software Engineering) A" | 8 matières | 1 étudiants | id=cls-gl(8-a
+"Génie Logiciel (Software Engineering) B" | 8 matières | 0 étudiants | id=cls-gl(1-b
+"Ingénierie A" | 8 matières | 0 étudiants | id=cls-i3-a
+"Ingénierie B" | 8 matières | 0 étudiants | id=cls-i1-b
+"Médecine A" | 8 matières | 0 étudiants | id=cls-m2-a
+"Médecine B" | 8 matières | 0 étudiants | id=cls-m3-b

@@ -1,0 +1,257 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String          @id @default(cuid())
+  email             String          @unique
+  password          String
+  nom               String
+  prenom            String
+  role              String
+  telephone         String?
+  adresse           String?
+  actif             Boolean         @default(true)
+  derniereConnexion DateTime?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+  administrateur    Administrateur?
+  enseignant        Enseignant?
+  etudiant          Etudiant?
+  logs              Log[]
+  parent            Parent?
+  notifications     Notification[]
+}
+
+model Etudiant {
+  id              String     @id @default(cuid())
+  userId          String     @unique
+  matricule       String     @unique
+  classeId        String?
+  datenaissance   DateTime?
+  lieunaissance   String?
+  sexe            String?
+  nationalite     String?
+  anneeentree     Int?
+  tuteurnom       String?
+  tuteurtelephone String?
+  tivalenteemail  String?
+  bulletins       Bulletin[]
+  classe          Classe?    @relation(fields: [classeId], references: [id])
+  user            User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  notes           Note[]
+  parents         Parent[]
+  qrcodes         QRCode[]
+}
+
+model Enseignant {
+  id                 String          @id @default(cuid())
+  userId             String          @unique
+  matricule          String          @unique
+  specialite         String?
+  dateembauche       DateTime?
+  grade              String?
+  classesprincipales Classe[]        @relation("ProfesseurPrincipal")
+  matieres           ClasseMatiere[]
+  emplois            EmploiTemps[]
+  user               User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  notesvalidees      Note[]          @relation("ValideePar")
+  notessaisies       Note[]          @relation("SaisiePar")
+}
+
+model Administrateur {
+  id              String  @id @default(cuid())
+  userId          String  @unique
+  niveauprivilege String?
+  departement     String?
+  user            User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Parent {
+  id         String   @id @default(cuid())
+  userId     String   @unique
+  etudiantId String
+  relation   String?
+  profession String?
+  etudiant   Etudiant @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Classe {
+  id                    String          @id @default(cuid())
+  nom                   String
+  niveau                String?
+  filiere               String?
+  anneeacademique       String
+  capacitemax           Int?
+  effectif              Int?            @default(0)
+  professeurprincipalId String?
+  actif                 Boolean         @default(true)
+  professeurprincipal   Enseignant?     @relation("ProfesseurPrincipal", fields: [professeurprincipalId], references: [id])
+  matieres              ClasseMatiere[]
+  emplois               EmploiTemps[]
+  etudiants             Etudiant[]
+}
+
+model Matiere {
+  id            String          @id @default(cuid())
+  code          String          @unique
+  intitule      String
+  seuilreussite Float           @default(10)
+  credits       Int             @default(0)
+  classes       ClasseMatiere[]
+  EmploiTemps   EmploiTemps[]
+  notes         Note[]
+  evaluations   Evaluation[]
+}
+
+model ClasseMatiere {
+  classeId      String
+  matiereId     String
+  enseignantId  String?
+  semestre      String
+  heuresprevues Int?
+  enseignant    Enseignant? @relation(fields: [enseignantId], references: [id])
+  matiere       Matiere     @relation(fields: [matiereId], references: [id], onDelete: Cascade)
+  classe        Classe      @relation(fields: [classeId], references: [id], onDelete: Cascade)
+
+  @@id([classeId, matiereId, semestre])
+}
+
+model Semestre {
+  id              String       @id @default(cuid())
+  libelle         String
+  datedebut       DateTime
+  datefin         DateTime
+  anneeacademique String
+  actif           Boolean      @default(false)
+  cloture         Boolean      @default(false)
+  bulletins       Bulletin[]
+  notes           Note[]
+  evaluations     Evaluation[]
+}
+
+model Evaluation {
+  id          String   @id @default(cuid())
+  type        String // CC, DS, EXAM, etc.
+  date        DateTime @default(now())
+  coefficient Int      @default(1)
+  matiereId   String
+  semestreId  String
+  matiere     Matiere  @relation(fields: [matiereId], references: [id], onDelete: Cascade)
+  semestre    Semestre @relation(fields: [semestreId], references: [id], onDelete: Cascade)
+  notes       Note[]
+
+  @@unique([matiereId, semestreId, type])
+}
+
+model Note {
+  id             String      @id @default(cuid())
+  valeur         Float
+  datenote       DateTime    @default(now())
+  appreciation   String?
+  etudiantId     String
+  matiereId      String
+  semestreId     String
+  evaluationId   String
+  bulletinId     String?
+  saisiparId     String?
+  validee        Boolean     @default(false)
+  valideeparId   String?
+  datevalidation DateTime?
+  valideepar     Enseignant? @relation("ValideePar", fields: [valideeparId], references: [id])
+  saisipar       Enseignant? @relation("SaisiePar", fields: [saisiparId], references: [id])
+  semestre       Semestre    @relation(fields: [semestreId], references: [id])
+  matiere        Matiere     @relation(fields: [matiereId], references: [id])
+  etudiant       Etudiant    @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+  evaluation     Evaluation  @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
+  bulletin       Bulletin?   @relation(fields: [bulletinId], references: [id])
+
+  @@unique([etudiantId, evaluationId])
+  @@index([etudiantId, semestreId])
+  @@index([evaluationId])
+}
+
+model Bulletin {
+  id                    String    @id @default(cuid())
+  etudiantId            String
+  semestreId            String
+  moyennegenerale       Float?
+  rang                  Int?
+  appreciation          String?
+  decision              String?
+  creditsobtenus        Int?
+  creditstotal          Int?
+  statut                String    @default("BROUILLON")
+  dategeneration        DateTime  @default(now())
+  datepublication       DateTime?
+  qrcodehash            String?   @unique
+  pdfurl                String?
+  semestre              Semestre  @relation(fields: [semestreId], references: [id])
+  etudiant              Etudiant  @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+  qrcodes               QRCode[]
+  notes                 Note[]
+  notificationsEnvoyees Boolean   @default(false)
+
+  @@unique([etudiantId, semestreId])
+}
+
+model QRCode {
+  id                  String    @id @default(cuid())
+  hash                String    @unique
+  bulletinId          String?
+  etudiantId          String?
+  dategeneration      DateTime  @default(now())
+  dateexpiration      DateTime?
+  statut              String    @default("ACTIF")
+  utilisations        Int       @default(0)
+  derniereutilisation DateTime?
+  bulletin            Bulletin? @relation(fields: [bulletinId], references: [id], onDelete: Cascade)
+  etudiant            Etudiant? @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+}
+
+model Log {
+  id          String   @id @default(cuid())
+  userId      String?
+  action      String
+  typeaction  String?
+  description String?
+  adresseip   String?
+  useragent   String?
+  dateaction  DateTime @default(now())
+  statut      String?
+  details     String?
+  user        User?    @relation(fields: [userId], references: [id])
+}
+
+model EmploiTemps {
+  id           String      @id @default(cuid())
+  classeId     String
+  jour         String
+  heureDebut   String
+  heureFin     String
+  enseignantId String?
+  matiereId    String
+  salle        String?
+  matiere      Matiere     @relation(fields: [matiereId], references: [id])
+  enseignant   Enseignant? @relation(fields: [enseignantId], references: [id])
+  classe       Classe      @relation(fields: [classeId], references: [id], onDelete: Cascade)
+
+  @@unique([classeId, jour, heureDebut])
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String
+  message   String
+  type      String   @default("INFO")
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

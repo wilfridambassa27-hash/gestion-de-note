@@ -1,0 +1,399 @@
+Total: 40 classes
+
+
+=== "Arts & Design A" (3 entrées) ===
+  GARDER: cls-a&d1-a | matieres=8 | etudiants=0
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+    matiere: Infographie (Photoshop / Illustrator) | sem=s1
+    matiere: Arts plastiques et volume | sem=s1
+    matiere: Sémiologie de l’image | sem=s1
+    matiere: Anglais technique (Arts) | sem=s1
+  SUPPRIMER: cls-a&d2-a | matieres=8 | etudiants=0
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Design Graphique | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Modélisation 3D | sem=s1
+    matiere: Typographie | sem=s1
+    matiere: Photographie Numérique | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+  SUPPRIMER: cls-a&d6-a | matieres=8 | etudiants=0
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+    matiere: Infographie (Photoshop / Illustrator) | sem=s1
+    matiere: Arts plastiques et volume | sem=s1
+    matiere: Sémiologie de l’image | sem=s1
+    matiere: Anglais technique (Arts) | sem=s1
+
+=== "Arts & Design B" (3 entrées) ===
+  GARDER: cls-a&d1-b | matieres=8 | etudiants=1
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+    matiere: Infographie (Photoshop / Illustrator) | sem=s1
+    matiere: Arts plastiques et volume | sem=s1
+    matiere: Sémiologie de l’image | sem=s1
+    matiere: Anglais technique (Arts) | sem=s1
+  SUPPRIMER: cls-a&d6-b | matieres=8 | etudiants=0
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+    matiere: Infographie (Photoshop / Illustrator) | sem=s1
+    matiere: Arts plastiques et volume | sem=s1
+    matiere: Sémiologie de l’image | sem=s1
+    matiere: Anglais technique (Arts) | sem=s1
+  SUPPRIMER: cls-a&d2-b | matieres=8 | etudiants=0
+    matiere: Histoire de l'Art | sem=s1
+    matiere: Design Graphique | sem=s1
+    matiere: Théorie des Couleurs | sem=s1
+    matiere: Dessin d'Observation | sem=s1
+    matiere: Modélisation 3D | sem=s1
+    matiere: Typographie | sem=s1
+    matiere: Photographie Numérique | sem=s1
+    matiere: Arts Visuels Contemporains | sem=s1
+
+=== "Génie Civil et Environnement A" (2 entrées) ===
+  GARDER: cls-gce2-a | matieres=11 | etudiants=0
+    matiere: Algorithmique & Logiciel | sem=s1
+    matiere: Développement Web | sem=s1
+    matiere: Mathématiques Discrètes | sem=s1
+    matiere: Mathématiques pour l’ingénieur | sem=s1
+    matiere: Mécanique du point et du solide | sem=s1
+    matiere: Résistance des Matériaux (RDM) | sem=s1
+    matiere: Géologie et Géotechnique | sem=s1
+    matiere: Dessin technique et DAO (AutoCAD) | sem=s1
+    matiere: Matériaux de construction | sem=s1
+    matiere: Topographie | sem=s1
+    matiere: Écologie et Développement durable | sem=s1
+  SUPPRIMER: cls-gce4-a | matieres=8 | etudiants=0
+    matiere: Mécanique des Sols | sem=s1
+    matiere: Résistance des Matériaux | sem=s1
+    matiere: Topographie et Cartographie | sem=s1
+    matiere: Hydrologie Appliquée | sem=s1
+    matiere: Matériaux de Construction | sem=s1
+    matiere: Dessin Technique et DAO | sem=s1
+    matiere: Évaluation Environnementale | sem=s1
+    matiere: Thermodynamique | sem=s1
+
+=== "Génie Civil et Environnement B" (2 entrées) ===
+  GARDER: cls-gce4-b | matieres=8 | etudiants=0
+    matiere: Mécanique des Sols | sem=s1
+    matiere: Résistance des Matériaux | sem=s1
+    matiere: Topographie et Cartographie | sem=s1
+    matiere: Hydrologie Appliquée | sem=s1
+    matiere: Matériaux de Construction | sem=s1
+    matiere: Dessin Technique et DAO | sem=s1
+    matiere: Évaluation Environnementale | sem=s1
+    matiere: Thermodynamique | sem=s1
+  SUPPRIMER: cls-gce2-b | matieres=8 | etudiants=0
+    matiere: Mathématiques pour l’ingénieur | sem=s1
+    matiere: Mécanique du point et du solide | sem=s1
+    matiere: Résistance des Matériaux (RDM) | sem=s1
+    matiere: Géologie et Géotechnique | sem=s1
+    matiere: Dessin technique et DAO (AutoCAD) | sem=s1
+    matiere: Matériaux de construction | sem=s1
+    matiere: Topographie | sem=s1
+    matiere: Écologie et Développement durable | sem=s1
+
+=== "Génie Électrique et Industrielle A" (3 entrées) ===
+  GARDER: cls-géi5-a | matieres=8 | etudiants=0
+    matiere: Électronique Analogique | sem=s1
+    matiere: Électronique Numérique | sem=s1
+    matiere: Circuits Électriques | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Automatique Linéaire | sem=s1
+    matiere: Traitement du Signal | sem=s1
+    matiere: Mesures Électriques | sem=s1
+    matiere: Énergie Solaire | sem=s1
+  SUPPRIMER: cls-gée7-a | matieres=8 | etudiants=0
+    matiere: Algèbre et Analyse | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Circuits électriques (Courant continu et alternatif) | sem=s1
+    matiere: Électronique analogique | sem=s1
+    matiere: Logique combinatoire et séquentielle | sem=s1
+    matiere: Informatique industrielle (Langage C) | sem=s1
+    matiere: Mesures électriques et instrumentation | sem=s1
+    matiere: Hygiène, Sécurité et Environnement (HSE) | sem=s1
+  SUPPRIMER: cls-gée9-a | matieres=8 | etudiants=0
+    matiere: Algèbre et Analyse | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Circuits électriques (Courant continu et alternatif) | sem=s1
+    matiere: Électronique analogique | sem=s1
+    matiere: Logique combinatoire et séquentielle | sem=s1
+    matiere: Informatique industrielle (Langage C) | sem=s1
+    matiere: Mesures électriques et instrumentation | sem=s1
+    matiere: Hygiène, Sécurité et Environnement (HSE) | sem=s1
+
+=== "Génie Électrique et Industrielle B" (3 entrées) ===
+  GARDER: cls-géi5-b | matieres=8 | etudiants=0
+    matiere: Électronique Analogique | sem=s1
+    matiere: Électronique Numérique | sem=s1
+    matiere: Circuits Électriques | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Automatique Linéaire | sem=s1
+    matiere: Traitement du Signal | sem=s1
+    matiere: Mesures Électriques | sem=s1
+    matiere: Énergie Solaire | sem=s1
+  SUPPRIMER: cls-gée9-b | matieres=8 | etudiants=0
+    matiere: Algèbre et Analyse | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Circuits électriques (Courant continu et alternatif) | sem=s1
+    matiere: Électronique analogique | sem=s1
+    matiere: Logique combinatoire et séquentielle | sem=s1
+    matiere: Informatique industrielle (Langage C) | sem=s1
+    matiere: Mesures électriques et instrumentation | sem=s1
+    matiere: Hygiène, Sécurité et Environnement (HSE) | sem=s1
+  SUPPRIMER: cls-gée7-b | matieres=8 | etudiants=0
+    matiere: Algèbre et Analyse | sem=s1
+    matiere: Électromagnétisme | sem=s1
+    matiere: Circuits électriques (Courant continu et alternatif) | sem=s1
+    matiere: Électronique analogique | sem=s1
+    matiere: Logique combinatoire et séquentielle | sem=s1
+    matiere: Informatique industrielle (Langage C) | sem=s1
+    matiere: Mesures électriques et instrumentation | sem=s1
+    matiere: Hygiène, Sécurité et Environnement (HSE) | sem=s1
+
+=== "Génie Industriel et Maintenance A" (3 entrées) ===
+  GARDER: cls-gie6-a | matieres=8 | etudiants=0
+    matiere: Maintenance préventive et corrective | sem=s1
+    matiere: Mécanique générale | sem=s1
+    matiere: Thermodynamique technique | sem=s1
+    matiere: Dessin de construction mécanique | sem=s1
+    matiere: Électricité industrielle | sem=s1
+    matiere: Technologie des machines | sem=s1
+    matiere: Organisation et gestion de la maintenance (GMAO) | sem=s1
+    matiere: Automatisme (API) | sem=s1
+  SUPPRIMER: cls-gim1-a | matieres=8 | etudiants=0
+    matiere: Maintenance Prédictive | sem=s1
+    matiere: Gestion de Production | sem=s1
+    matiere: Fiabilité des Systèmes | sem=s1
+    matiere: Automatismes Industriels | sem=s1
+    matiere: Informatique Industrielle | sem=s1
+    matiere: Logistique et Supply Chain | sem=s1
+    matiere: Recherche Opérationnelle | sem=s1
+    matiere: Qualité Industrielle | sem=s1
+  SUPPRIMER: cls-gie9-a | matieres=8 | etudiants=0
+    matiere: Maintenance préventive et corrective | sem=s1
+    matiere: Mécanique générale | sem=s1
+    matiere: Thermodynamique technique | sem=s1
+    matiere: Dessin de construction mécanique | sem=s1
+    matiere: Électricité industrielle | sem=s1
+    matiere: Technologie des machines | sem=s1
+    matiere: Organisation et gestion de la maintenance (GMAO) | sem=s1
+    matiere: Automatisme (API) | sem=s1
+
+=== "Génie Industriel et Maintenance B" (3 entrées) ===
+  GARDER: cls-gie9-b | matieres=8 | etudiants=0
+    matiere: Maintenance préventive et corrective | sem=s1
+    matiere: Mécanique générale | sem=s1
+    matiere: Thermodynamique technique | sem=s1
+    matiere: Dessin de construction mécanique | sem=s1
+    matiere: Électricité industrielle | sem=s1
+    matiere: Technologie des machines | sem=s1
+    matiere: Organisation et gestion de la maintenance (GMAO) | sem=s1
+    matiere: Automatisme (API) | sem=s1
+  SUPPRIMER: cls-gim1-b | matieres=8 | etudiants=0
+    matiere: Maintenance Prédictive | sem=s1
+    matiere: Gestion de Production | sem=s1
+    matiere: Fiabilité des Systèmes | sem=s1
+    matiere: Automatismes Industriels | sem=s1
+    matiere: Informatique Industrielle | sem=s1
+    matiere: Logistique et Supply Chain | sem=s1
+    matiere: Recherche Opérationnelle | sem=s1
+    matiere: Qualité Industrielle | sem=s1
+  SUPPRIMER: cls-gie6-b | matieres=8 | etudiants=0
+    matiere: Maintenance préventive et corrective | sem=s1
+    matiere: Mécanique générale | sem=s1
+    matiere: Thermodynamique technique | sem=s1
+    matiere: Dessin de construction mécanique | sem=s1
+    matiere: Électricité industrielle | sem=s1
+    matiere: Technologie des machines | sem=s1
+    matiere: Organisation et gestion de la maintenance (GMAO) | sem=s1
+    matiere: Automatisme (API) | sem=s1
+
+=== "Génie Logiciel (Software Engineering) A" (3 entrées) ===
+  GARDER: cls-gl(1-a | matieres=8 | etudiants=0
+    matiere: Algorithmique et Structures de données | sem=s1
+    matiere: Programmation impérative (C ou Python) | sem=s1
+    matiere: Architecture des ordinateurs | sem=s1
+    matiere: Bases de données (Modèle Relationnel & SQL) | sem=s1
+    matiere: Systèmes d'exploitation (Linux/Windows) | sem=s1
+    matiere: Développement Web statique (HTML/CSS) | sem=s1
+    matiere: Mathématiques discrètes | sem=s1
+    matiere: Méthodologie de programmation | sem=s1
+  SUPPRIMER: cls-gl(6-a | matieres=8 | etudiants=0
+    matiere: Algorithmique et Structures de données | sem=s1
+    matiere: Programmation impérative (C ou Python) | sem=s1
+    matiere: Architecture des ordinateurs | sem=s1
+    matiere: Bases de données (Modèle Relationnel & SQL) | sem=s1
+    matiere: Systèmes d'exploitation (Linux/Windows) | sem=s1
+    matiere: Développement Web statique (HTML/CSS) | sem=s1
+    matiere: Mathématiques discrètes | sem=s1
+    matiere: Méthodologie de programmation | sem=s1
+  SUPPRIMER: cls-gl(8-a | matieres=8 | etudiants=1
+    matiere: Algorithmique & Logiciel | sem=s1
+    matiere: Développement Web | sem=s1
+    matiere: Architecture des Ordinateurs | sem=s1
+    matiere: Bases de Données | sem=s1
+    matiere: Programmation Orientée Objet | sem=s1
+    matiere: Systèmes d'Exploitation | sem=s1
+    matiere: Sécurité Informatique | sem=s1
+    matiere: Mathématiques Discrètes | sem=s1
+
+=== "Génie Logiciel (Software Engineering) B" (3 entrées) ===
+  GARDER: cls-gl(1-b | matieres=8 | etudiants=0
+    matiere: Algorithmique et Structures de données | sem=s1
+    matiere: Programmation impérative (C ou Python) | sem=s1
+    matiere: Architecture des ordinateurs | sem=s1
+    matiere: Bases de données (Modèle Relationnel & SQL) | sem=s1
+    matiere: Systèmes d'exploitation (Linux/Windows) | sem=s1
+    matiere: Développement Web statique (HTML/CSS) | sem=s1
+    matiere: Mathématiques discrètes | sem=s1
+    matiere: Méthodologie de programmation | sem=s1
+  SUPPRIMER: cls-gl(8-b | matieres=8 | etudiants=0
+    matiere: Algorithmique & Logiciel | sem=s1
+    matiere: Développement Web | sem=s1
+    matiere: Architecture des Ordinateurs | sem=s1
+    matiere: Bases de Données | sem=s1
+    matiere: Programmation Orientée Objet | sem=s1
+    matiere: Systèmes d'Exploitation | sem=s1
+    matiere: Sécurité Informatique | sem=s1
+    matiere: Mathématiques Discrètes | sem=s1
+  SUPPRIMER: cls-gl(6-b | matieres=8 | etudiants=0
+    matiere: Algorithmique et Structures de données | sem=s1
+    matiere: Programmation impérative (C ou Python) | sem=s1
+    matiere: Architecture des ordinateurs | sem=s1
+    matiere: Bases de données (Modèle Relationnel & SQL) | sem=s1
+    matiere: Systèmes d'exploitation (Linux/Windows) | sem=s1
+    matiere: Développement Web statique (HTML/CSS) | sem=s1
+    matiere: Mathématiques discrètes | sem=s1
+    matiere: Méthodologie de programmation | sem=s1
+
+=== "Ingénierie A" (3 entrées) ===
+  GARDER: cls-i3-a | matieres=8 | etudiants=0
+    matiere: Mathématiques pour l'Ingénieur | sem=s1
+    matiere: Physique Appliquée | sem=s1
+    matiere: Ingénierie des Systèmes | sem=s1
+    matiere: Gestion de Projet | sem=s1
+    matiere: Éthique de l'Ingénieur | sem=s1
+    matiere: Innovation Technologique | sem=s1
+    matiere: Économie pour l'Ingénieur | sem=s1
+    matiere: Communication Professionnelle | sem=s1
+  SUPPRIMER: cls-i8-a | matieres=8 | etudiants=0
+    matiere: Analyse mathématique | sem=s1
+    matiere: Physique générale (Optique et Thermodynamique) | sem=s1
+    matiere: Chimie des matériaux | sem=s1
+    matiere: Algorithmique et programmation | sem=s1
+    matiere: Statique des systèmes | sem=s1
+    matiere: Communication technique et expression | sem=s1
+    matiere: Économie pour l'ingénieur | sem=s1
+    matiere: Anglais scientifique | sem=s1
+  SUPPRIMER: cls-i1-a | matieres=8 | etudiants=0
+    matiere: Analyse mathématique | sem=s1
+    matiere: Physique générale (Optique et Thermodynamique) | sem=s1
+    matiere: Chimie des matériaux | sem=s1
+    matiere: Algorithmique et programmation | sem=s1
+    matiere: Statique des systèmes | sem=s1
+    matiere: Communication technique et expression | sem=s1
+    matiere: Économie pour l'ingénieur | sem=s1
+    matiere: Anglais scientifique | sem=s1
+
+=== "Ingénierie B" (3 entrées) ===
+  GARDER: cls-i1-b | matieres=8 | etudiants=0
+    matiere: Analyse mathématique | sem=s1
+    matiere: Physique générale (Optique et Thermodynamique) | sem=s1
+    matiere: Chimie des matériaux | sem=s1
+    matiere: Algorithmique et programmation | sem=s1
+    matiere: Statique des systèmes | sem=s1
+    matiere: Communication technique et expression | sem=s1
+    matiere: Économie pour l'ingénieur | sem=s1
+    matiere: Anglais scientifique | sem=s1
+  SUPPRIMER: cls-i8-b | matieres=8 | etudiants=0
+    matiere: Analyse mathématique | sem=s1
+    matiere: Physique générale (Optique et Thermodynamique) | sem=s1
+    matiere: Chimie des matériaux | sem=s1
+    matiere: Algorithmique et programmation | sem=s1
+    matiere: Statique des systèmes | sem=s1
+    matiere: Communication technique et expression | sem=s1
+    matiere: Économie pour l'ingénieur | sem=s1
+    matiere: Anglais scientifique | sem=s1
+  SUPPRIMER: cls-i3-b | matieres=8 | etudiants=0
+    matiere: Mathématiques pour l'Ingénieur | sem=s1
+    matiere: Physique Appliquée | sem=s1
+    matiere: Ingénierie des Systèmes | sem=s1
+    matiere: Gestion de Projet | sem=s1
+    matiere: Éthique de l'Ingénieur | sem=s1
+    matiere: Innovation Technologique | sem=s1
+    matiere: Économie pour l'Ingénieur | sem=s1
+    matiere: Communication Professionnelle | sem=s1
+
+=== "Médecine A" (3 entrées) ===
+  GARDER: cls-m2-a | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Physiologie humaine | sem=s1
+    matiere: Biochimie médicale | sem=s1
+    matiere: Biophysique | sem=s1
+    matiere: Santé publique et éthique | sem=s1
+    matiere: Terminologie médicale (Français/Latin/Grec) | sem=s1
+  SUPPRIMER: cls-m8-a | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Physiologie humaine | sem=s1
+    matiere: Biochimie médicale | sem=s1
+    matiere: Biophysique | sem=s1
+    matiere: Santé publique et éthique | sem=s1
+    matiere: Terminologie médicale (Français/Latin/Grec) | sem=s1
+  SUPPRIMER: cls-m3-a | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Biologie Cellulaire | sem=s1
+    matiere: Biochimie Structurale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Santé Publique | sem=s1
+    matiere: Épidémiologie | sem=s1
+    matiere: Génétique | sem=s1
+
+=== "Médecine B" (3 entrées) ===
+  GARDER: cls-m3-b | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Biologie Cellulaire | sem=s1
+    matiere: Biochimie Structurale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Santé Publique | sem=s1
+    matiere: Épidémiologie | sem=s1
+    matiere: Génétique | sem=s1
+  SUPPRIMER: cls-m8-b | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Physiologie humaine | sem=s1
+    matiere: Biochimie médicale | sem=s1
+    matiere: Biophysique | sem=s1
+    matiere: Santé publique et éthique | sem=s1
+    matiere: Terminologie médicale (Français/Latin/Grec) | sem=s1
+  SUPPRIMER: cls-m2-b | matieres=8 | etudiants=0
+    matiere: Anatomie Humaine | sem=s1
+    matiere: Physiologie Médicale | sem=s1
+    matiere: Histologie | sem=s1
+    matiere: Physiologie humaine | sem=s1
+    matiere: Biochimie médicale | sem=s1
+    matiere: Biophysique | sem=s1
+    matiere: Santé publique et éthique | sem=s1
+    matiere: Terminologie médicale (Français/Latin/Grec) | sem=s1
+
+
+=== RÉSUMÉ ===
+Classes à GARDER: 14
+Classes à SUPPRIMER: 26
+IDs à supprimer: ["cls-a&d2-a","cls-a&d6-a","cls-a&d6-b","cls-a&d2-b","cls-gce4-a","cls-gce2-b","cls-gée7-a","cls-gée9-a","cls-gée9-b","cls-gée7-b","cls-gim1-a","cls-gie9-a","cls-gim1-b","cls-gie6-b","cls-gl(6-a","cls-gl(8-a","cls-gl(8-b","cls-gl(6-b","cls-i8-a","cls-i1-a","cls-i8-b","cls-i3-b","cls-m8-a","cls-m3-a","cls-m8-b","cls-m2-b"]

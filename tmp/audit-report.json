@@ -1,0 +1,2666 @@
+{
+  "totalClasses": 40,
+  "totalTriples": 0,
+  "totalDoubles": 0,
+  "totalSingles": 7,
+  "triples": [],
+  "doubles": [],
+  "singles": [
+    {
+      "base": "Arts & Design",
+      "classes": [
+        {
+          "id": "cls-a&d1-a",
+          "nom": "Arts & Design A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            },
+            {
+              "matiereId": "mat-art105",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Infographie (Photoshop / Illustrator)",
+              "code": "ART105"
+            },
+            {
+              "matiereId": "mat-art106",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Arts plastiques et volume",
+              "code": "ART106"
+            },
+            {
+              "matiereId": "mat-art107",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Sémiologie de l’image",
+              "code": "ART107"
+            },
+            {
+              "matiereId": "mat-art108",
+              "classeId": "cls-a&d1-a",
+              "semestre": "s1",
+              "intitule": "Anglais technique (Arts)",
+              "code": "ART108"
+            }
+          ]
+        },
+        {
+          "id": "cls-a&d2-a",
+          "nom": "Arts & Design A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-des101",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Design Graphique",
+              "code": "DES101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-3d101",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Modélisation 3D",
+              "code": "3D101"
+            },
+            {
+              "matiereId": "mat-typo101",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Typographie",
+              "code": "TYPO101"
+            },
+            {
+              "matiereId": "mat-photo101",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Photographie Numérique",
+              "code": "PHOTO101"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d2-a",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            }
+          ]
+        },
+        {
+          "id": "cls-a&d6-a",
+          "nom": "Arts & Design A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            },
+            {
+              "matiereId": "mat-art105",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Infographie (Photoshop / Illustrator)",
+              "code": "ART105"
+            },
+            {
+              "matiereId": "mat-art106",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Arts plastiques et volume",
+              "code": "ART106"
+            },
+            {
+              "matiereId": "mat-art107",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Sémiologie de l’image",
+              "code": "ART107"
+            },
+            {
+              "matiereId": "mat-art108",
+              "classeId": "cls-a&d6-a",
+              "semestre": "s1",
+              "intitule": "Anglais technique (Arts)",
+              "code": "ART108"
+            }
+          ]
+        },
+        {
+          "id": "cls-a&d1-b",
+          "nom": "Arts & Design B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 1,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            },
+            {
+              "matiereId": "mat-art105",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Infographie (Photoshop / Illustrator)",
+              "code": "ART105"
+            },
+            {
+              "matiereId": "mat-art106",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Arts plastiques et volume",
+              "code": "ART106"
+            },
+            {
+              "matiereId": "mat-art107",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Sémiologie de l’image",
+              "code": "ART107"
+            },
+            {
+              "matiereId": "mat-art108",
+              "classeId": "cls-a&d1-b",
+              "semestre": "s1",
+              "intitule": "Anglais technique (Arts)",
+              "code": "ART108"
+            }
+          ]
+        },
+        {
+          "id": "cls-a&d6-b",
+          "nom": "Arts & Design B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            },
+            {
+              "matiereId": "mat-art105",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Infographie (Photoshop / Illustrator)",
+              "code": "ART105"
+            },
+            {
+              "matiereId": "mat-art106",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Arts plastiques et volume",
+              "code": "ART106"
+            },
+            {
+              "matiereId": "mat-art107",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Sémiologie de l’image",
+              "code": "ART107"
+            },
+            {
+              "matiereId": "mat-art108",
+              "classeId": "cls-a&d6-b",
+              "semestre": "s1",
+              "intitule": "Anglais technique (Arts)",
+              "code": "ART108"
+            }
+          ]
+        },
+        {
+          "id": "cls-a&d2-b",
+          "nom": "Arts & Design B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-art101",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Histoire de l'Art",
+              "code": "ART101"
+            },
+            {
+              "matiereId": "mat-des101",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Design Graphique",
+              "code": "DES101"
+            },
+            {
+              "matiereId": "mat-art102",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Théorie des Couleurs",
+              "code": "ART102"
+            },
+            {
+              "matiereId": "mat-art103",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Dessin d'Observation",
+              "code": "ART103"
+            },
+            {
+              "matiereId": "mat-3d101",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Modélisation 3D",
+              "code": "3D101"
+            },
+            {
+              "matiereId": "mat-typo101",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Typographie",
+              "code": "TYPO101"
+            },
+            {
+              "matiereId": "mat-photo101",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Photographie Numérique",
+              "code": "PHOTO101"
+            },
+            {
+              "matiereId": "mat-art104",
+              "classeId": "cls-a&d2-b",
+              "semestre": "s1",
+              "intitule": "Arts Visuels Contemporains",
+              "code": "ART104"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Génie Civil et Environnement",
+      "classes": [
+        {
+          "id": "cls-gce2-a",
+          "nom": "Génie Civil et Environnement A",
+          "suffix": "A",
+          "nbMatieres": 11,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-prog101",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique & Logiciel",
+              "code": "PROG101"
+            },
+            {
+              "matiereId": "mat-web101",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Développement Web",
+              "code": "WEB101"
+            },
+            {
+              "matiereId": "mat-math101",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques Discrètes",
+              "code": "MATH101"
+            },
+            {
+              "matiereId": "mat-gce101",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques pour l’ingénieur",
+              "code": "GCE101"
+            },
+            {
+              "matiereId": "mat-gce102",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Mécanique du point et du solide",
+              "code": "GCE102"
+            },
+            {
+              "matiereId": "mat-gce103",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Résistance des Matériaux (RDM)",
+              "code": "GCE103"
+            },
+            {
+              "matiereId": "mat-gce104",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Géologie et Géotechnique",
+              "code": "GCE104"
+            },
+            {
+              "matiereId": "mat-gce105",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Dessin technique et DAO (AutoCAD)",
+              "code": "GCE105"
+            },
+            {
+              "matiereId": "mat-gce106",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Matériaux de construction",
+              "code": "GCE106"
+            },
+            {
+              "matiereId": "mat-gce107",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Topographie",
+              "code": "GCE107"
+            },
+            {
+              "matiereId": "mat-gce108",
+              "classeId": "cls-gce2-a",
+              "semestre": "s1",
+              "intitule": "Écologie et Développement durable",
+              "code": "GCE108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gce4-a",
+          "nom": "Génie Civil et Environnement A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-civ101",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Mécanique des Sols",
+              "code": "CIV101"
+            },
+            {
+              "matiereId": "mat-civ102",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Résistance des Matériaux",
+              "code": "CIV102"
+            },
+            {
+              "matiereId": "mat-civ103",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Topographie et Cartographie",
+              "code": "CIV103"
+            },
+            {
+              "matiereId": "mat-civ104",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Hydrologie Appliquée",
+              "code": "CIV104"
+            },
+            {
+              "matiereId": "mat-civ105",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Matériaux de Construction",
+              "code": "CIV105"
+            },
+            {
+              "matiereId": "mat-civ106",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Dessin Technique et DAO",
+              "code": "CIV106"
+            },
+            {
+              "matiereId": "mat-civ107",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Évaluation Environnementale",
+              "code": "CIV107"
+            },
+            {
+              "matiereId": "mat-civ108",
+              "classeId": "cls-gce4-a",
+              "semestre": "s1",
+              "intitule": "Thermodynamique",
+              "code": "CIV108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gce4-b",
+          "nom": "Génie Civil et Environnement B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-civ101",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Mécanique des Sols",
+              "code": "CIV101"
+            },
+            {
+              "matiereId": "mat-civ102",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Résistance des Matériaux",
+              "code": "CIV102"
+            },
+            {
+              "matiereId": "mat-civ103",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Topographie et Cartographie",
+              "code": "CIV103"
+            },
+            {
+              "matiereId": "mat-civ104",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Hydrologie Appliquée",
+              "code": "CIV104"
+            },
+            {
+              "matiereId": "mat-civ105",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Matériaux de Construction",
+              "code": "CIV105"
+            },
+            {
+              "matiereId": "mat-civ106",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Dessin Technique et DAO",
+              "code": "CIV106"
+            },
+            {
+              "matiereId": "mat-civ107",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Évaluation Environnementale",
+              "code": "CIV107"
+            },
+            {
+              "matiereId": "mat-civ108",
+              "classeId": "cls-gce4-b",
+              "semestre": "s1",
+              "intitule": "Thermodynamique",
+              "code": "CIV108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gce2-b",
+          "nom": "Génie Civil et Environnement B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gce101",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Mathématiques pour l’ingénieur",
+              "code": "GCE101"
+            },
+            {
+              "matiereId": "mat-gce102",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Mécanique du point et du solide",
+              "code": "GCE102"
+            },
+            {
+              "matiereId": "mat-gce103",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Résistance des Matériaux (RDM)",
+              "code": "GCE103"
+            },
+            {
+              "matiereId": "mat-gce104",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Géologie et Géotechnique",
+              "code": "GCE104"
+            },
+            {
+              "matiereId": "mat-gce105",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Dessin technique et DAO (AutoCAD)",
+              "code": "GCE105"
+            },
+            {
+              "matiereId": "mat-gce106",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Matériaux de construction",
+              "code": "GCE106"
+            },
+            {
+              "matiereId": "mat-gce107",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Topographie",
+              "code": "GCE107"
+            },
+            {
+              "matiereId": "mat-gce108",
+              "classeId": "cls-gce2-b",
+              "semestre": "s1",
+              "intitule": "Écologie et Développement durable",
+              "code": "GCE108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Génie Électrique et Industrielle",
+      "classes": [
+        {
+          "id": "cls-géi5-a",
+          "nom": "Génie Électrique et Industrielle A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-elec101",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Électronique Analogique",
+              "code": "ELEC101"
+            },
+            {
+              "matiereId": "mat-elec102",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Électronique Numérique",
+              "code": "ELEC102"
+            },
+            {
+              "matiereId": "mat-elec103",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Circuits Électriques",
+              "code": "ELEC103"
+            },
+            {
+              "matiereId": "mat-elec104",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "ELEC104"
+            },
+            {
+              "matiereId": "mat-auto101",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Automatique Linéaire",
+              "code": "AUTO101"
+            },
+            {
+              "matiereId": "mat-sig101",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Traitement du Signal",
+              "code": "SIG101"
+            },
+            {
+              "matiereId": "mat-mes101",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Mesures Électriques",
+              "code": "MES101"
+            },
+            {
+              "matiereId": "mat-nrg101",
+              "classeId": "cls-géi5-a",
+              "semestre": "s1",
+              "intitule": "Énergie Solaire",
+              "code": "NRG101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gée7-a",
+          "nom": "Génie Électrique et Industrielle A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gei101",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Algèbre et Analyse",
+              "code": "GEI101"
+            },
+            {
+              "matiereId": "mat-gei102",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "GEI102"
+            },
+            {
+              "matiereId": "mat-gei103",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Circuits électriques (Courant continu et alternatif)",
+              "code": "GEI103"
+            },
+            {
+              "matiereId": "mat-gei104",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Électronique analogique",
+              "code": "GEI104"
+            },
+            {
+              "matiereId": "mat-gei105",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Logique combinatoire et séquentielle",
+              "code": "GEI105"
+            },
+            {
+              "matiereId": "mat-gei106",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Informatique industrielle (Langage C)",
+              "code": "GEI106"
+            },
+            {
+              "matiereId": "mat-gei107",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Mesures électriques et instrumentation",
+              "code": "GEI107"
+            },
+            {
+              "matiereId": "mat-gei108",
+              "classeId": "cls-gée7-a",
+              "semestre": "s1",
+              "intitule": "Hygiène, Sécurité et Environnement (HSE)",
+              "code": "GEI108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gée9-a",
+          "nom": "Génie Électrique et Industrielle A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gei101",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Algèbre et Analyse",
+              "code": "GEI101"
+            },
+            {
+              "matiereId": "mat-gei102",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "GEI102"
+            },
+            {
+              "matiereId": "mat-gei103",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Circuits électriques (Courant continu et alternatif)",
+              "code": "GEI103"
+            },
+            {
+              "matiereId": "mat-gei104",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Électronique analogique",
+              "code": "GEI104"
+            },
+            {
+              "matiereId": "mat-gei105",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Logique combinatoire et séquentielle",
+              "code": "GEI105"
+            },
+            {
+              "matiereId": "mat-gei106",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Informatique industrielle (Langage C)",
+              "code": "GEI106"
+            },
+            {
+              "matiereId": "mat-gei107",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Mesures électriques et instrumentation",
+              "code": "GEI107"
+            },
+            {
+              "matiereId": "mat-gei108",
+              "classeId": "cls-gée9-a",
+              "semestre": "s1",
+              "intitule": "Hygiène, Sécurité et Environnement (HSE)",
+              "code": "GEI108"
+            }
+          ]
+        },
+        {
+          "id": "cls-géi5-b",
+          "nom": "Génie Électrique et Industrielle B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-elec101",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Électronique Analogique",
+              "code": "ELEC101"
+            },
+            {
+              "matiereId": "mat-elec102",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Électronique Numérique",
+              "code": "ELEC102"
+            },
+            {
+              "matiereId": "mat-elec103",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Circuits Électriques",
+              "code": "ELEC103"
+            },
+            {
+              "matiereId": "mat-elec104",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "ELEC104"
+            },
+            {
+              "matiereId": "mat-auto101",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Automatique Linéaire",
+              "code": "AUTO101"
+            },
+            {
+              "matiereId": "mat-sig101",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Traitement du Signal",
+              "code": "SIG101"
+            },
+            {
+              "matiereId": "mat-mes101",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Mesures Électriques",
+              "code": "MES101"
+            },
+            {
+              "matiereId": "mat-nrg101",
+              "classeId": "cls-géi5-b",
+              "semestre": "s1",
+              "intitule": "Énergie Solaire",
+              "code": "NRG101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gée9-b",
+          "nom": "Génie Électrique et Industrielle B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gei101",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Algèbre et Analyse",
+              "code": "GEI101"
+            },
+            {
+              "matiereId": "mat-gei102",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "GEI102"
+            },
+            {
+              "matiereId": "mat-gei103",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Circuits électriques (Courant continu et alternatif)",
+              "code": "GEI103"
+            },
+            {
+              "matiereId": "mat-gei104",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Électronique analogique",
+              "code": "GEI104"
+            },
+            {
+              "matiereId": "mat-gei105",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Logique combinatoire et séquentielle",
+              "code": "GEI105"
+            },
+            {
+              "matiereId": "mat-gei106",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Informatique industrielle (Langage C)",
+              "code": "GEI106"
+            },
+            {
+              "matiereId": "mat-gei107",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Mesures électriques et instrumentation",
+              "code": "GEI107"
+            },
+            {
+              "matiereId": "mat-gei108",
+              "classeId": "cls-gée9-b",
+              "semestre": "s1",
+              "intitule": "Hygiène, Sécurité et Environnement (HSE)",
+              "code": "GEI108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gée7-b",
+          "nom": "Génie Électrique et Industrielle B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gei101",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Algèbre et Analyse",
+              "code": "GEI101"
+            },
+            {
+              "matiereId": "mat-gei102",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Électromagnétisme",
+              "code": "GEI102"
+            },
+            {
+              "matiereId": "mat-gei103",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Circuits électriques (Courant continu et alternatif)",
+              "code": "GEI103"
+            },
+            {
+              "matiereId": "mat-gei104",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Électronique analogique",
+              "code": "GEI104"
+            },
+            {
+              "matiereId": "mat-gei105",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Logique combinatoire et séquentielle",
+              "code": "GEI105"
+            },
+            {
+              "matiereId": "mat-gei106",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Informatique industrielle (Langage C)",
+              "code": "GEI106"
+            },
+            {
+              "matiereId": "mat-gei107",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Mesures électriques et instrumentation",
+              "code": "GEI107"
+            },
+            {
+              "matiereId": "mat-gei108",
+              "classeId": "cls-gée7-b",
+              "semestre": "s1",
+              "intitule": "Hygiène, Sécurité et Environnement (HSE)",
+              "code": "GEI108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Génie Industriel et Maintenance",
+      "classes": [
+        {
+          "id": "cls-gie6-a",
+          "nom": "Génie Industriel et Maintenance A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gim101",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Maintenance préventive et corrective",
+              "code": "GIM101"
+            },
+            {
+              "matiereId": "mat-gim102",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Mécanique générale",
+              "code": "GIM102"
+            },
+            {
+              "matiereId": "mat-gim103",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Thermodynamique technique",
+              "code": "GIM103"
+            },
+            {
+              "matiereId": "mat-gim104",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Dessin de construction mécanique",
+              "code": "GIM104"
+            },
+            {
+              "matiereId": "mat-gim105",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Électricité industrielle",
+              "code": "GIM105"
+            },
+            {
+              "matiereId": "mat-gim106",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Technologie des machines",
+              "code": "GIM106"
+            },
+            {
+              "matiereId": "mat-gim107",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Organisation et gestion de la maintenance (GMAO)",
+              "code": "GIM107"
+            },
+            {
+              "matiereId": "mat-gim108",
+              "classeId": "cls-gie6-a",
+              "semestre": "s1",
+              "intitule": "Automatisme (API)",
+              "code": "GIM108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gim1-a",
+          "nom": "Génie Industriel et Maintenance A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-maint101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Maintenance Prédictive",
+              "code": "MAINT101"
+            },
+            {
+              "matiereId": "mat-prod101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Gestion de Production",
+              "code": "PROD101"
+            },
+            {
+              "matiereId": "mat-fiab101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Fiabilité des Systèmes",
+              "code": "FIAB101"
+            },
+            {
+              "matiereId": "mat-auto102",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Automatismes Industriels",
+              "code": "AUTO102"
+            },
+            {
+              "matiereId": "mat-info101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Informatique Industrielle",
+              "code": "INFO101"
+            },
+            {
+              "matiereId": "mat-log101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Logistique et Supply Chain",
+              "code": "LOG101"
+            },
+            {
+              "matiereId": "mat-ro101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Recherche Opérationnelle",
+              "code": "RO101"
+            },
+            {
+              "matiereId": "mat-qual101",
+              "classeId": "cls-gim1-a",
+              "semestre": "s1",
+              "intitule": "Qualité Industrielle",
+              "code": "QUAL101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gie9-a",
+          "nom": "Génie Industriel et Maintenance A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gim101",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Maintenance préventive et corrective",
+              "code": "GIM101"
+            },
+            {
+              "matiereId": "mat-gim102",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Mécanique générale",
+              "code": "GIM102"
+            },
+            {
+              "matiereId": "mat-gim103",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Thermodynamique technique",
+              "code": "GIM103"
+            },
+            {
+              "matiereId": "mat-gim104",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Dessin de construction mécanique",
+              "code": "GIM104"
+            },
+            {
+              "matiereId": "mat-gim105",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Électricité industrielle",
+              "code": "GIM105"
+            },
+            {
+              "matiereId": "mat-gim106",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Technologie des machines",
+              "code": "GIM106"
+            },
+            {
+              "matiereId": "mat-gim107",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Organisation et gestion de la maintenance (GMAO)",
+              "code": "GIM107"
+            },
+            {
+              "matiereId": "mat-gim108",
+              "classeId": "cls-gie9-a",
+              "semestre": "s1",
+              "intitule": "Automatisme (API)",
+              "code": "GIM108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gie9-b",
+          "nom": "Génie Industriel et Maintenance B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gim101",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Maintenance préventive et corrective",
+              "code": "GIM101"
+            },
+            {
+              "matiereId": "mat-gim102",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Mécanique générale",
+              "code": "GIM102"
+            },
+            {
+              "matiereId": "mat-gim103",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Thermodynamique technique",
+              "code": "GIM103"
+            },
+            {
+              "matiereId": "mat-gim104",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Dessin de construction mécanique",
+              "code": "GIM104"
+            },
+            {
+              "matiereId": "mat-gim105",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Électricité industrielle",
+              "code": "GIM105"
+            },
+            {
+              "matiereId": "mat-gim106",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Technologie des machines",
+              "code": "GIM106"
+            },
+            {
+              "matiereId": "mat-gim107",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Organisation et gestion de la maintenance (GMAO)",
+              "code": "GIM107"
+            },
+            {
+              "matiereId": "mat-gim108",
+              "classeId": "cls-gie9-b",
+              "semestre": "s1",
+              "intitule": "Automatisme (API)",
+              "code": "GIM108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gim1-b",
+          "nom": "Génie Industriel et Maintenance B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-maint101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Maintenance Prédictive",
+              "code": "MAINT101"
+            },
+            {
+              "matiereId": "mat-prod101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Gestion de Production",
+              "code": "PROD101"
+            },
+            {
+              "matiereId": "mat-fiab101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Fiabilité des Systèmes",
+              "code": "FIAB101"
+            },
+            {
+              "matiereId": "mat-auto102",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Automatismes Industriels",
+              "code": "AUTO102"
+            },
+            {
+              "matiereId": "mat-info101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Informatique Industrielle",
+              "code": "INFO101"
+            },
+            {
+              "matiereId": "mat-log101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Logistique et Supply Chain",
+              "code": "LOG101"
+            },
+            {
+              "matiereId": "mat-ro101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Recherche Opérationnelle",
+              "code": "RO101"
+            },
+            {
+              "matiereId": "mat-qual101",
+              "classeId": "cls-gim1-b",
+              "semestre": "s1",
+              "intitule": "Qualité Industrielle",
+              "code": "QUAL101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gie6-b",
+          "nom": "Génie Industriel et Maintenance B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-gim101",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Maintenance préventive et corrective",
+              "code": "GIM101"
+            },
+            {
+              "matiereId": "mat-gim102",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Mécanique générale",
+              "code": "GIM102"
+            },
+            {
+              "matiereId": "mat-gim103",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Thermodynamique technique",
+              "code": "GIM103"
+            },
+            {
+              "matiereId": "mat-gim104",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Dessin de construction mécanique",
+              "code": "GIM104"
+            },
+            {
+              "matiereId": "mat-gim105",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Électricité industrielle",
+              "code": "GIM105"
+            },
+            {
+              "matiereId": "mat-gim106",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Technologie des machines",
+              "code": "GIM106"
+            },
+            {
+              "matiereId": "mat-gim107",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Organisation et gestion de la maintenance (GMAO)",
+              "code": "GIM107"
+            },
+            {
+              "matiereId": "mat-gim108",
+              "classeId": "cls-gie6-b",
+              "semestre": "s1",
+              "intitule": "Automatisme (API)",
+              "code": "GIM108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Génie Logiciel (Software Engineering)",
+      "classes": [
+        {
+          "id": "cls-gl(1-a",
+          "nom": "Génie Logiciel (Software Engineering) A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-glo101",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique et Structures de données",
+              "code": "GLO101"
+            },
+            {
+              "matiereId": "mat-glo102",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Programmation impérative (C ou Python)",
+              "code": "GLO102"
+            },
+            {
+              "matiereId": "mat-glo103",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Architecture des ordinateurs",
+              "code": "GLO103"
+            },
+            {
+              "matiereId": "mat-glo104",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Bases de données (Modèle Relationnel & SQL)",
+              "code": "GLO104"
+            },
+            {
+              "matiereId": "mat-glo105",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Systèmes d'exploitation (Linux/Windows)",
+              "code": "GLO105"
+            },
+            {
+              "matiereId": "mat-glo106",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Développement Web statique (HTML/CSS)",
+              "code": "GLO106"
+            },
+            {
+              "matiereId": "mat-glo107",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques discrètes",
+              "code": "GLO107"
+            },
+            {
+              "matiereId": "mat-glo108",
+              "classeId": "cls-gl(1-a",
+              "semestre": "s1",
+              "intitule": "Méthodologie de programmation",
+              "code": "GLO108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gl(6-a",
+          "nom": "Génie Logiciel (Software Engineering) A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-glo101",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique et Structures de données",
+              "code": "GLO101"
+            },
+            {
+              "matiereId": "mat-glo102",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Programmation impérative (C ou Python)",
+              "code": "GLO102"
+            },
+            {
+              "matiereId": "mat-glo103",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Architecture des ordinateurs",
+              "code": "GLO103"
+            },
+            {
+              "matiereId": "mat-glo104",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Bases de données (Modèle Relationnel & SQL)",
+              "code": "GLO104"
+            },
+            {
+              "matiereId": "mat-glo105",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Systèmes d'exploitation (Linux/Windows)",
+              "code": "GLO105"
+            },
+            {
+              "matiereId": "mat-glo106",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Développement Web statique (HTML/CSS)",
+              "code": "GLO106"
+            },
+            {
+              "matiereId": "mat-glo107",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques discrètes",
+              "code": "GLO107"
+            },
+            {
+              "matiereId": "mat-glo108",
+              "classeId": "cls-gl(6-a",
+              "semestre": "s1",
+              "intitule": "Méthodologie de programmation",
+              "code": "GLO108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gl(8-a",
+          "nom": "Génie Logiciel (Software Engineering) A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 1,
+          "matieres": [
+            {
+              "matiereId": "mat-prog101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique & Logiciel",
+              "code": "PROG101"
+            },
+            {
+              "matiereId": "mat-web101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Développement Web",
+              "code": "WEB101"
+            },
+            {
+              "matiereId": "mat-arch101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Architecture des Ordinateurs",
+              "code": "ARCH101"
+            },
+            {
+              "matiereId": "mat-bd101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Bases de Données",
+              "code": "BD101"
+            },
+            {
+              "matiereId": "mat-poo101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Programmation Orientée Objet",
+              "code": "POO101"
+            },
+            {
+              "matiereId": "mat-os101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Systèmes d'Exploitation",
+              "code": "OS101"
+            },
+            {
+              "matiereId": "mat-sec101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Sécurité Informatique",
+              "code": "SEC101"
+            },
+            {
+              "matiereId": "mat-math101",
+              "classeId": "cls-gl(8-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques Discrètes",
+              "code": "MATH101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gl(1-b",
+          "nom": "Génie Logiciel (Software Engineering) B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-glo101",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Algorithmique et Structures de données",
+              "code": "GLO101"
+            },
+            {
+              "matiereId": "mat-glo102",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Programmation impérative (C ou Python)",
+              "code": "GLO102"
+            },
+            {
+              "matiereId": "mat-glo103",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Architecture des ordinateurs",
+              "code": "GLO103"
+            },
+            {
+              "matiereId": "mat-glo104",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Bases de données (Modèle Relationnel & SQL)",
+              "code": "GLO104"
+            },
+            {
+              "matiereId": "mat-glo105",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Systèmes d'exploitation (Linux/Windows)",
+              "code": "GLO105"
+            },
+            {
+              "matiereId": "mat-glo106",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Développement Web statique (HTML/CSS)",
+              "code": "GLO106"
+            },
+            {
+              "matiereId": "mat-glo107",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Mathématiques discrètes",
+              "code": "GLO107"
+            },
+            {
+              "matiereId": "mat-glo108",
+              "classeId": "cls-gl(1-b",
+              "semestre": "s1",
+              "intitule": "Méthodologie de programmation",
+              "code": "GLO108"
+            }
+          ]
+        },
+        {
+          "id": "cls-gl(8-b",
+          "nom": "Génie Logiciel (Software Engineering) B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-prog101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Algorithmique & Logiciel",
+              "code": "PROG101"
+            },
+            {
+              "matiereId": "mat-web101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Développement Web",
+              "code": "WEB101"
+            },
+            {
+              "matiereId": "mat-arch101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Architecture des Ordinateurs",
+              "code": "ARCH101"
+            },
+            {
+              "matiereId": "mat-bd101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Bases de Données",
+              "code": "BD101"
+            },
+            {
+              "matiereId": "mat-poo101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Programmation Orientée Objet",
+              "code": "POO101"
+            },
+            {
+              "matiereId": "mat-os101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Systèmes d'Exploitation",
+              "code": "OS101"
+            },
+            {
+              "matiereId": "mat-sec101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Sécurité Informatique",
+              "code": "SEC101"
+            },
+            {
+              "matiereId": "mat-math101",
+              "classeId": "cls-gl(8-b",
+              "semestre": "s1",
+              "intitule": "Mathématiques Discrètes",
+              "code": "MATH101"
+            }
+          ]
+        },
+        {
+          "id": "cls-gl(6-b",
+          "nom": "Génie Logiciel (Software Engineering) B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-glo101",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Algorithmique et Structures de données",
+              "code": "GLO101"
+            },
+            {
+              "matiereId": "mat-glo102",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Programmation impérative (C ou Python)",
+              "code": "GLO102"
+            },
+            {
+              "matiereId": "mat-glo103",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Architecture des ordinateurs",
+              "code": "GLO103"
+            },
+            {
+              "matiereId": "mat-glo104",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Bases de données (Modèle Relationnel & SQL)",
+              "code": "GLO104"
+            },
+            {
+              "matiereId": "mat-glo105",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Systèmes d'exploitation (Linux/Windows)",
+              "code": "GLO105"
+            },
+            {
+              "matiereId": "mat-glo106",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Développement Web statique (HTML/CSS)",
+              "code": "GLO106"
+            },
+            {
+              "matiereId": "mat-glo107",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Mathématiques discrètes",
+              "code": "GLO107"
+            },
+            {
+              "matiereId": "mat-glo108",
+              "classeId": "cls-gl(6-b",
+              "semestre": "s1",
+              "intitule": "Méthodologie de programmation",
+              "code": "GLO108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Ingénierie",
+      "classes": [
+        {
+          "id": "cls-i3-a",
+          "nom": "Ingénierie A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-math201",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Mathématiques pour l'Ingénieur",
+              "code": "MATH201"
+            },
+            {
+              "matiereId": "mat-phys101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Physique Appliquée",
+              "code": "PHYS101"
+            },
+            {
+              "matiereId": "mat-sys101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Ingénierie des Systèmes",
+              "code": "SYS101"
+            },
+            {
+              "matiereId": "mat-proj101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Gestion de Projet",
+              "code": "PROJ101"
+            },
+            {
+              "matiereId": "mat-eth101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Éthique de l'Ingénieur",
+              "code": "ETH101"
+            },
+            {
+              "matiereId": "mat-innov101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Innovation Technologique",
+              "code": "INNOV101"
+            },
+            {
+              "matiereId": "mat-eco101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Économie pour l'Ingénieur",
+              "code": "ECO101"
+            },
+            {
+              "matiereId": "mat-com101",
+              "classeId": "cls-i3-a",
+              "semestre": "s1",
+              "intitule": "Communication Professionnelle",
+              "code": "COM101"
+            }
+          ]
+        },
+        {
+          "id": "cls-i8-a",
+          "nom": "Ingénierie A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-ing101",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Analyse mathématique",
+              "code": "ING101"
+            },
+            {
+              "matiereId": "mat-ing102",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Physique générale (Optique et Thermodynamique)",
+              "code": "ING102"
+            },
+            {
+              "matiereId": "mat-ing103",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Chimie des matériaux",
+              "code": "ING103"
+            },
+            {
+              "matiereId": "mat-ing104",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique et programmation",
+              "code": "ING104"
+            },
+            {
+              "matiereId": "mat-ing105",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Statique des systèmes",
+              "code": "ING105"
+            },
+            {
+              "matiereId": "mat-ing106",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Communication technique et expression",
+              "code": "ING106"
+            },
+            {
+              "matiereId": "mat-ing107",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Économie pour l'ingénieur",
+              "code": "ING107"
+            },
+            {
+              "matiereId": "mat-ing108",
+              "classeId": "cls-i8-a",
+              "semestre": "s1",
+              "intitule": "Anglais scientifique",
+              "code": "ING108"
+            }
+          ]
+        },
+        {
+          "id": "cls-i1-a",
+          "nom": "Ingénierie A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-ing101",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Analyse mathématique",
+              "code": "ING101"
+            },
+            {
+              "matiereId": "mat-ing102",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Physique générale (Optique et Thermodynamique)",
+              "code": "ING102"
+            },
+            {
+              "matiereId": "mat-ing103",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Chimie des matériaux",
+              "code": "ING103"
+            },
+            {
+              "matiereId": "mat-ing104",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Algorithmique et programmation",
+              "code": "ING104"
+            },
+            {
+              "matiereId": "mat-ing105",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Statique des systèmes",
+              "code": "ING105"
+            },
+            {
+              "matiereId": "mat-ing106",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Communication technique et expression",
+              "code": "ING106"
+            },
+            {
+              "matiereId": "mat-ing107",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Économie pour l'ingénieur",
+              "code": "ING107"
+            },
+            {
+              "matiereId": "mat-ing108",
+              "classeId": "cls-i1-a",
+              "semestre": "s1",
+              "intitule": "Anglais scientifique",
+              "code": "ING108"
+            }
+          ]
+        },
+        {
+          "id": "cls-i1-b",
+          "nom": "Ingénierie B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-ing101",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Analyse mathématique",
+              "code": "ING101"
+            },
+            {
+              "matiereId": "mat-ing102",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Physique générale (Optique et Thermodynamique)",
+              "code": "ING102"
+            },
+            {
+              "matiereId": "mat-ing103",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Chimie des matériaux",
+              "code": "ING103"
+            },
+            {
+              "matiereId": "mat-ing104",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Algorithmique et programmation",
+              "code": "ING104"
+            },
+            {
+              "matiereId": "mat-ing105",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Statique des systèmes",
+              "code": "ING105"
+            },
+            {
+              "matiereId": "mat-ing106",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Communication technique et expression",
+              "code": "ING106"
+            },
+            {
+              "matiereId": "mat-ing107",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Économie pour l'ingénieur",
+              "code": "ING107"
+            },
+            {
+              "matiereId": "mat-ing108",
+              "classeId": "cls-i1-b",
+              "semestre": "s1",
+              "intitule": "Anglais scientifique",
+              "code": "ING108"
+            }
+          ]
+        },
+        {
+          "id": "cls-i8-b",
+          "nom": "Ingénierie B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-ing101",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Analyse mathématique",
+              "code": "ING101"
+            },
+            {
+              "matiereId": "mat-ing102",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Physique générale (Optique et Thermodynamique)",
+              "code": "ING102"
+            },
+            {
+              "matiereId": "mat-ing103",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Chimie des matériaux",
+              "code": "ING103"
+            },
+            {
+              "matiereId": "mat-ing104",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Algorithmique et programmation",
+              "code": "ING104"
+            },
+            {
+              "matiereId": "mat-ing105",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Statique des systèmes",
+              "code": "ING105"
+            },
+            {
+              "matiereId": "mat-ing106",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Communication technique et expression",
+              "code": "ING106"
+            },
+            {
+              "matiereId": "mat-ing107",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Économie pour l'ingénieur",
+              "code": "ING107"
+            },
+            {
+              "matiereId": "mat-ing108",
+              "classeId": "cls-i8-b",
+              "semestre": "s1",
+              "intitule": "Anglais scientifique",
+              "code": "ING108"
+            }
+          ]
+        },
+        {
+          "id": "cls-i3-b",
+          "nom": "Ingénierie B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-math201",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Mathématiques pour l'Ingénieur",
+              "code": "MATH201"
+            },
+            {
+              "matiereId": "mat-phys101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Physique Appliquée",
+              "code": "PHYS101"
+            },
+            {
+              "matiereId": "mat-sys101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Ingénierie des Systèmes",
+              "code": "SYS101"
+            },
+            {
+              "matiereId": "mat-proj101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Gestion de Projet",
+              "code": "PROJ101"
+            },
+            {
+              "matiereId": "mat-eth101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Éthique de l'Ingénieur",
+              "code": "ETH101"
+            },
+            {
+              "matiereId": "mat-innov101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Innovation Technologique",
+              "code": "INNOV101"
+            },
+            {
+              "matiereId": "mat-eco101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Économie pour l'Ingénieur",
+              "code": "ECO101"
+            },
+            {
+              "matiereId": "mat-com101",
+              "classeId": "cls-i3-b",
+              "semestre": "s1",
+              "intitule": "Communication Professionnelle",
+              "code": "COM101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "base": "Médecine",
+      "classes": [
+        {
+          "id": "cls-m2-a",
+          "nom": "Médecine A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-med104",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Physiologie humaine",
+              "code": "MED104"
+            },
+            {
+              "matiereId": "mat-med105",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Biochimie médicale",
+              "code": "MED105"
+            },
+            {
+              "matiereId": "mat-med106",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Biophysique",
+              "code": "MED106"
+            },
+            {
+              "matiereId": "mat-med107",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Santé publique et éthique",
+              "code": "MED107"
+            },
+            {
+              "matiereId": "mat-med108",
+              "classeId": "cls-m2-a",
+              "semestre": "s1",
+              "intitule": "Terminologie médicale (Français/Latin/Grec)",
+              "code": "MED108"
+            }
+          ]
+        },
+        {
+          "id": "cls-m8-a",
+          "nom": "Médecine A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-med104",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Physiologie humaine",
+              "code": "MED104"
+            },
+            {
+              "matiereId": "mat-med105",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Biochimie médicale",
+              "code": "MED105"
+            },
+            {
+              "matiereId": "mat-med106",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Biophysique",
+              "code": "MED106"
+            },
+            {
+              "matiereId": "mat-med107",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Santé publique et éthique",
+              "code": "MED107"
+            },
+            {
+              "matiereId": "mat-med108",
+              "classeId": "cls-m8-a",
+              "semestre": "s1",
+              "intitule": "Terminologie médicale (Français/Latin/Grec)",
+              "code": "MED108"
+            }
+          ]
+        },
+        {
+          "id": "cls-m3-a",
+          "nom": "Médecine A",
+          "suffix": "A",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-bio101",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Biologie Cellulaire",
+              "code": "BIO101"
+            },
+            {
+              "matiereId": "mat-bio102",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Biochimie Structurale",
+              "code": "BIO102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-san101",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Santé Publique",
+              "code": "SAN101"
+            },
+            {
+              "matiereId": "mat-epi101",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Épidémiologie",
+              "code": "EPI101"
+            },
+            {
+              "matiereId": "mat-gen101",
+              "classeId": "cls-m3-a",
+              "semestre": "s1",
+              "intitule": "Génétique",
+              "code": "GEN101"
+            }
+          ]
+        },
+        {
+          "id": "cls-m3-b",
+          "nom": "Médecine B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-bio101",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Biologie Cellulaire",
+              "code": "BIO101"
+            },
+            {
+              "matiereId": "mat-bio102",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Biochimie Structurale",
+              "code": "BIO102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-san101",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Santé Publique",
+              "code": "SAN101"
+            },
+            {
+              "matiereId": "mat-epi101",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Épidémiologie",
+              "code": "EPI101"
+            },
+            {
+              "matiereId": "mat-gen101",
+              "classeId": "cls-m3-b",
+              "semestre": "s1",
+              "intitule": "Génétique",
+              "code": "GEN101"
+            }
+          ]
+        },
+        {
+          "id": "cls-m8-b",
+          "nom": "Médecine B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-med104",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Physiologie humaine",
+              "code": "MED104"
+            },
+            {
+              "matiereId": "mat-med105",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Biochimie médicale",
+              "code": "MED105"
+            },
+            {
+              "matiereId": "mat-med106",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Biophysique",
+              "code": "MED106"
+            },
+            {
+              "matiereId": "mat-med107",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Santé publique et éthique",
+              "code": "MED107"
+            },
+            {
+              "matiereId": "mat-med108",
+              "classeId": "cls-m8-b",
+              "semestre": "s1",
+              "intitule": "Terminologie médicale (Français/Latin/Grec)",
+              "code": "MED108"
+            }
+          ]
+        },
+        {
+          "id": "cls-m2-b",
+          "nom": "Médecine B",
+          "suffix": "B",
+          "nbMatieres": 8,
+          "nbEtudiants": 0,
+          "matieres": [
+            {
+              "matiereId": "mat-med101",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Anatomie Humaine",
+              "code": "MED101"
+            },
+            {
+              "matiereId": "mat-med102",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Physiologie Médicale",
+              "code": "MED102"
+            },
+            {
+              "matiereId": "mat-med103",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Histologie",
+              "code": "MED103"
+            },
+            {
+              "matiereId": "mat-med104",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Physiologie humaine",
+              "code": "MED104"
+            },
+            {
+              "matiereId": "mat-med105",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Biochimie médicale",
+              "code": "MED105"
+            },
+            {
+              "matiereId": "mat-med106",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Biophysique",
+              "code": "MED106"
+            },
+            {
+              "matiereId": "mat-med107",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Santé publique et éthique",
+              "code": "MED107"
+            },
+            {
+              "matiereId": "mat-med108",
+              "classeId": "cls-m2-b",
+              "semestre": "s1",
+              "intitule": "Terminologie médicale (Français/Latin/Grec)",
+              "code": "MED108"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

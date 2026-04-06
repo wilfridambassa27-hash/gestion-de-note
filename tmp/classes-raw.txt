@@ -1,0 +1,42 @@
+Total: 40 classes
+
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d1-a
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d2-a
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d6-a
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d1-b
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d6-b
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d2-b
+"Génie Civil et Environnement A" | filiere="Génie Civil et Environnement" | niveau="L1" | id=cls-gce2-a
+"Génie Civil et Environnement A" | filiere="Génie Civil et Environnement" | niveau="L1" | id=cls-gce4-a
+"Génie Civil et Environnement B" | filiere="Génie Civil et Environnement" | niveau="L1" | id=cls-gce4-b
+"Génie Civil et Environnement B" | filiere="Génie Civil et Environnement" | niveau="L1" | id=cls-gce2-b
+"Génie Électrique et Industrielle A" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-géi5-a
+"Génie Électrique et Industrielle A" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-gée7-a
+"Génie Électrique et Industrielle A" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-gée9-a
+"Génie Électrique et Industrielle B" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-géi5-b
+"Génie Électrique et Industrielle B" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-gée9-b
+"Génie Électrique et Industrielle B" | filiere="Génie Électrique et Industrielle" | niveau="L1" | id=cls-gée7-b
+"Génie Industriel et Maintenance A" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gie6-a
+"Génie Industriel et Maintenance A" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gim1-a
+"Génie Industriel et Maintenance A" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gie9-a
+"Génie Industriel et Maintenance B" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gie9-b
+"Génie Industriel et Maintenance B" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gim1-b
+"Génie Industriel et Maintenance B" | filiere="Génie Industriel et Maintenance" | niveau="L1" | id=cls-gie6-b
+"Génie Logiciel (Software Engineering) A" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(1-a
+"Génie Logiciel (Software Engineering) A" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(6-a
+"Génie Logiciel (Software Engineering) A" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(8-a
+"Génie Logiciel (Software Engineering) B" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(1-b
+"Génie Logiciel (Software Engineering) B" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(8-b
+"Génie Logiciel (Software Engineering) B" | filiere="Génie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(6-b
+"Ingénierie A" | filiere="Ingénierie" | niveau="L1" | id=cls-i3-a
+"Ingénierie A" | filiere="Ingénierie" | niveau="L1" | id=cls-i8-a
+"Ingénierie A" | filiere="Ingénierie" | niveau="L1" | id=cls-i1-a
+"Ingénierie B" | filiere="Ingénierie" | niveau="L1" | id=cls-i1-b
+"Ingénierie B" | filiere="Ingénierie" | niveau="L1" | id=cls-i8-b
+"Ingénierie B" | filiere="Ingénierie" | niveau="L1" | id=cls-i3-b
+"Médecine A" | filiere="Médecine" | niveau="L1" | id=cls-m2-a
+"Médecine A" | filiere="Médecine" | niveau="L1" | id=cls-m8-a
+"Médecine A" | filiere="Médecine" | niveau="L1" | id=cls-m3-a
+"Médecine B" | filiere="Médecine" | niveau="L1" | id=cls-m3-b
+"Médecine B" | filiere="Médecine" | niveau="L1" | id=cls-m8-b
+"Médecine B" | filiere="Médecine" | niveau="L1" | id=cls-m2-b

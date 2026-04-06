@@ -1,0 +1,43 @@
+﻿
+Total: 40 classes
+
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d1-a
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d2-a
+"Arts & Design A" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d6-a
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d1-b
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d6-b
+"Arts & Design B" | filiere="Arts & Design" | niveau="L1" | id=cls-a&d2-b
+"G├®nie Civil et Environnement A" | filiere="G├®nie Civil et Environnement" | niveau="L1" | id=cls-gce2-a
+"G├®nie Civil et Environnement A" | filiere="G├®nie Civil et Environnement" | niveau="L1" | id=cls-gce4-a
+"G├®nie Civil et Environnement B" | filiere="G├®nie Civil et Environnement" | niveau="L1" | id=cls-gce4-b
+"G├®nie Civil et Environnement B" | filiere="G├®nie Civil et Environnement" | niveau="L1" | id=cls-gce2-b
+"G├®nie ├ëlectrique et Industrielle A" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®i5-a
+"G├®nie ├ëlectrique et Industrielle A" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®e7-a
+"G├®nie ├ëlectrique et Industrielle A" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®e9-a
+"G├®nie ├ëlectrique et Industrielle B" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®i5-b
+"G├®nie ├ëlectrique et Industrielle B" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®e9-b
+"G├®nie ├ëlectrique et Industrielle B" | filiere="G├®nie ├ëlectrique et Industrielle" | niveau="L1" | id=cls-g├®e7-b
+"G├®nie Industriel et Maintenance A" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gie6-a
+"G├®nie Industriel et Maintenance A" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gim1-a
+"G├®nie Industriel et Maintenance A" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gie9-a
+"G├®nie Industriel et Maintenance B" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gie9-b
+"G├®nie Industriel et Maintenance B" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gim1-b
+"G├®nie Industriel et Maintenance B" | filiere="G├®nie Industriel et Maintenance" | niveau="L1" | id=cls-gie6-b
+"G├®nie Logiciel (Software Engineering) A" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(1-a
+"G├®nie Logiciel (Software Engineering) A" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(6-a
+"G├®nie Logiciel (Software Engineering) A" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(8-a
+"G├®nie Logiciel (Software Engineering) B" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(1-b
+"G├®nie Logiciel (Software Engineering) B" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(8-b
+"G├®nie Logiciel (Software Engineering) B" | filiere="G├®nie Logiciel (Software Engineering)" | niveau="L1" | id=cls-gl(6-b
+"Ing├®nierie A" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i3-a
+"Ing├®nierie A" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i8-a
+"Ing├®nierie A" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i1-a
+"Ing├®nierie B" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i1-b
+"Ing├®nierie B" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i8-b
+"Ing├®nierie B" | filiere="Ing├®nierie" | niveau="L1" | id=cls-i3-b
+"M├®decine A" | filiere="M├®decine" | niveau="L1" | id=cls-m2-a
+"M├®decine A" | filiere="M├®decine" | niveau="L1" | id=cls-m8-a
+"M├®decine A" | filiere="M├®decine" | niveau="L1" | id=cls-m3-a
+"M├®decine B" | filiere="M├®decine" | niveau="L1" | id=cls-m3-b
+"M├®decine B" | filiere="M├®decine" | niveau="L1" | id=cls-m8-b
+"M├®decine B" | filiere="M├®decine" | niveau="L1" | id=cls-m2-b
