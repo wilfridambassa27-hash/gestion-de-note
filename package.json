@@ -66,9 +66,6 @@
         "xlsx": "^0.18.5",
         "zod": "^4.3.6"
     },
-    "prisma": {
-        "seed": "ts-node prisma/seed.ts"
-    },
     "devDependencies": {
         "@types/bcryptjs": "^2.4.6",
         "@types/jsonwebtoken": "^9.0.10",
