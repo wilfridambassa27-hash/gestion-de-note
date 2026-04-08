@@ -27,6 +27,11 @@ export async function GET(request: Request) {
               take: 1
             }
           }
+        },
+        enseignant: {
+          include: {
+            classesprincipales: true
+          }
         }
       },
       orderBy: { createdAt: 'desc' }
@@ -98,13 +103,19 @@ export async function POST(request: Request) {
         }
       })
     } else if (role === 'ENSEIGNANT') {
-      await prisma.enseignant.create({
+      const ens = await prisma.enseignant.create({
         data: {
           userId: user.id,
           matricule: matricule || `ENS-${Date.now()}`,
           specialite: specialite || null
         }
       })
+      if (classeId) {
+        await prisma.classe.update({
+          where: { id: classeId },
+          data: { professeurprincipalId: ens.id }
+        })
+      }
     } else if (role === 'ADMIN') {
       await prisma.administrateur.create({
         data: {
@@ -200,6 +211,14 @@ export async function PUT(request: Request) {
         where: { userId: id },
         data: { classeId }
       })
+    } else if (user.role === 'ENSEIGNANT' && classeId) {
+      const ens = await prisma.enseignant.findUnique({ where: { userId: id } })
+      if (ens) {
+        await prisma.classe.update({
+          where: { id: classeId },
+          data: { professeurprincipalId: ens.id }
+        })
+      }
     }
 
     await createLog({

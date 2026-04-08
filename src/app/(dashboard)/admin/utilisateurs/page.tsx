@@ -51,6 +51,14 @@ interface User {
     notes?: { valeur: number }[]
     bulletins?: { moyennegenerale: number }[]
   }
+  enseignant?: {
+    classesprincipales?: {
+      id: string
+      nom: string
+      filiere: string
+      anneeacademique: string
+    }[]
+  }
 }
 
 interface UserFormData {
@@ -89,7 +97,7 @@ export default function UtilisateursPage() {
   const [users, setUsers] = useState<User[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
-  const [roleFilter, setRoleFilter] = useState('all')
+  const [roleFilter, setRoleFilter] = useState('ETUDIANT')
   const [showModal, setShowModal] = useState(false)
   const [editingUser, setEditingUser] = useState<User | null>(null)
   const [showDeleteConfirm, setShowDeleteConfirm] = useState<string | null>(null)
@@ -208,7 +216,7 @@ export default function UtilisateursPage() {
       prenom: user.prenom, 
       role: user.role, 
       telephone: user.telephone || '',
-      classeId: user.etudiant?.classe?.nom ? user.etudiant.classe.id : '',
+      classeId: user.etudiant?.classe?.id || user.enseignant?.classesprincipales?.[0]?.id || '',
       actif: user.actif
     })
     setShowModal(true)
@@ -297,22 +305,24 @@ export default function UtilisateursPage() {
           </div>
         </div>
 
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-100 p-4 mb-6">
-          <div className="flex flex-wrap gap-4 items-center">
-            <div className="flex-1 min-w-[300px]">
-              <PremiumSearch 
-                placeholder="Rechercher (nom, email)..." 
-                value={searchTerm} 
-                onChange={setSearchTerm} 
-              />
-            </div>
-            <select value={roleFilter} onChange={(e) => setRoleFilter(e.target.value)} className="px-6 py-3.5 bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-black-500 text-[10px] font-black uppercase tracking-widest text-slate-700">
-              <option value="all">Tous les rôles</option>
-              <option value="ADMIN">Administrateur</option>
-              <option value="ENSEIGNANT">Enseignant</option>
-              <option value="ETUDIANT">Etudiant</option>
-              <option value="PARENT">Parent</option>
-            </select>
+        <div className="flex flex-col gap-4 mb-6">
+          <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-100 p-4">
+            <PremiumSearch 
+              placeholder="Rechercher (nom, email)..." 
+              value={searchTerm} 
+              onChange={setSearchTerm} 
+            />
+          </div>
+          <div className="flex bg-slate-200/50 p-1.5 rounded-2xl shadow-inner border border-slate-200 overflow-x-auto">
+             {['ETUDIANT', 'ENSEIGNANT', 'PARENT', 'ADMIN'].map(role => (
+                <button 
+                  key={role}
+                  onClick={() => setRoleFilter(role)}
+                  className={`flex-1 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${roleFilter === role ? 'bg-white text-emerald-600 shadow-sm border border-slate-200/50' : 'text-slate-500 hover:text-slate-900'}`}
+                >
+                  {role === 'ETUDIANT' ? 'Étudiants' : role === 'ENSEIGNANT' ? 'Enseignants' : role === 'PARENT' ? 'Parents' : 'Administrateurs'}
+                </button>
+             ))}
           </div>
         </div>
 
@@ -341,8 +351,8 @@ export default function UtilisateursPage() {
                   </td>
                   <td className="px-6 py-4">
                     <div className="space-y-1">
-                      <p className="text-[10px] font-black text-slate-950 uppercase">{user.etudiant?.classe?.nom || '-'}</p>
-                      <p className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">{user.etudiant?.classe?.filiere || 'Promotion'} {user.etudiant?.classe?.anneeacademique || '2024-2025'}</p>
+                      <p className="text-[10px] font-black text-slate-950 uppercase">{user.etudiant?.classe?.nom || user.enseignant?.classesprincipales?.[0]?.nom || '-'}</p>
+                      <p className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">{user.etudiant?.classe?.filiere || user.enseignant?.classesprincipales?.[0]?.filiere || 'Promotion'} {user.etudiant?.classe?.anneeacademique || user.enseignant?.classesprincipales?.[0]?.anneeacademique || '2024-2025'}</p>
                     </div>
                   </td>
                   <td className="px-6 py-4">
@@ -440,9 +450,11 @@ export default function UtilisateursPage() {
                   </div>
                 </div>
 
-                {formData.role === 'ETUDIANT' && (
+                {(formData.role === 'ETUDIANT' || formData.role === 'ENSEIGNANT') && (
                   <div>
-                    <label className="block text-sm font-medium text-stone-700 mb-1">Classe (& Filière)</label>
+                    <label className="block text-sm font-medium text-stone-700 mb-1">
+                      {formData.role === 'ENSEIGNANT' ? 'Classe (Prof Principal)' : 'Classe (& Filière)'}
+                    </label>
                     <select 
                       value={formData.classeId} 
                       onChange={(e) => setFormData({ ...formData, classeId: e.target.value })} 

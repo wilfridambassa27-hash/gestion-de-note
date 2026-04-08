@@ -22,6 +22,12 @@ const translations: Translations = {
   'cancel': { fr: 'Annuler', en: 'Cancel', es: 'Cancelar', de: 'Abbrechen' },
   'validate': { fr: 'Valider', en: 'Validate', es: 'Validar', de: 'Validieren' },
   
+  // Roles & Titles
+  'administration': { fr: 'Administration', en: 'Administration', es: 'Administración', de: 'Verwaltung' },
+  'administrator': { fr: 'Administrateur', en: 'Administrator', es: 'Administrador', de: 'Administrator' },
+  'teacher_role': { fr: 'Enseignant', en: 'Teacher', es: 'Profesor', de: 'Lehrer' },
+  'pro_suite': { fr: 'Suite Professionnelle', en: 'Professional Suite', es: 'Suite Profesional', de: 'Professionelle Suite' },
+  
   // Teacher Dashboard
   'welcome': { fr: 'Bienvenue', en: 'Welcome', es: 'Bienvenido', de: 'Willkommen' },
   'active_session': { fr: 'Session Active', en: 'Active Session', es: 'Sesión Activa', de: 'Aktive Sitzung' },

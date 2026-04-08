@@ -92,7 +92,7 @@ export default function Sidebar({ children }: SidebarProps) {
                   </h1>
                   <div className="flex items-center gap-1">
                     <Shield className="w-3 h-3 text-emerald-500" />
-                    <p className="text-xs font-medium text-slate-500 dark:text-slate-400">Administration</p>
+                    <p className="text-xs font-medium text-slate-500 dark:text-slate-400">{t('administration')}</p>
                   </div>
                 </motion.div>
               )}
@@ -220,7 +220,7 @@ export default function Sidebar({ children }: SidebarProps) {
                   className="flex-1 min-w-0"
                 >
                   <p className="font-semibold text-slate-800 dark:text-slate-200 truncate">
-                    {session?.user?.name || 'Administrateur'}
+                    {session?.user?.name || t('administrator')}
                   </p>
                   <button 
                     onClick={() => signOut({ callbackUrl: '/login' })}

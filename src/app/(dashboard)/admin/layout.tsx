@@ -90,14 +90,14 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   }
 
   const menuItems = [
-    { icon: LayoutDashboard, label: 'Tableau de bord', href: '/admin' },
-    { icon: Users, label: 'Utilisateurs', href: '/admin/utilisateurs' },
-    { icon: Briefcase, label: 'Enseignants', href: '/admin/enseignants' },
-    { icon: BookOpen, label: 'Classes', href: '/admin/classes' },
-    { icon: ChartBar, label: 'Statistiques', href: '/admin/statistiques' },
-    { icon: Shield, label: 'Rétrographie Elite', href: '/admin/retrographie' },
-    { icon: Database, label: 'Registre Notes', href: '/admin/notes' },
-    { icon: Settings, label: 'Configuration', href: '/admin/parametres' },
+    { icon: LayoutDashboard, label: t('nav_dashboard'), href: '/admin' },
+    { icon: Users, label: t('nav_users'), href: '/admin/utilisateurs' },
+    { icon: Briefcase, label: t('teacher_role') + 's', href: '/admin/enseignants' },
+    { icon: BookOpen, label: t('nav_classes'), href: '/admin/classes' },
+    { icon: ChartBar, label: t('nav_stats'), href: '/admin/statistiques' },
+    { icon: Shield, label: t('pro_suite') || 'Rétrographie Elite', href: '/admin/retrographie' },
+    { icon: Database, label: t('nav_notes'), href: '/admin/notes' },
+    { icon: Settings, label: t('nav_settings'), href: '/admin/parametres' },
   ]
 
   return (
@@ -153,7 +153,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 onClick={() => signOut({ callbackUrl: '/login' })}
                 className="w-full p-5 bg-slate-950 text-[#1dff2f] border border-emerald-500/30 rounded-[1.8rem] hover:shadow-lg hover:shadow-emerald-500/30 transition-all flex items-center justify-center gap-3 font-black text-[10px] uppercase tracking-widest shadow-lg shadow-emerald-500/10"
               >
-                 <LogOut className="w-5 h-5" /> Déconnexion
+                 <LogOut className="w-5 h-5" /> {t('logout') || 'Déconnexion'}
               </button>
            </div>
         </div>

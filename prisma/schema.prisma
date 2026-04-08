@@ -2,10 +2,8 @@ generator client {
   provider = "prisma-client-js"
 }
 
-datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
-}
+
+
 
 model User {
   id                String          @id @default(cuid())
@@ -25,7 +23,6 @@ model User {
   etudiant          Etudiant?
   logs              Log[]
   parent            Parent?
-  notifications     Notification[]
 }
 
 model Etudiant {
@@ -46,7 +43,6 @@ model Etudiant {
   user            User       @relation(fields: [userId], references: [id], onDelete: Cascade)
   notes           Note[]
   parents         Parent[]
-  qrcodes         QRCode[]
 }
 
 model Enseignant {
@@ -89,7 +85,6 @@ model Classe {
   filiere               String?
   anneeacademique       String
   capacitemax           Int?
-  effectif              Int?            @default(0)
   professeurprincipalId String?
   actif                 Boolean         @default(true)
   professeurprincipal   Enseignant?     @relation("ProfesseurPrincipal", fields: [professeurprincipalId], references: [id])
@@ -102,12 +97,12 @@ model Matiere {
   id            String          @id @default(cuid())
   code          String          @unique
   intitule      String
+  coefficient   Float           @default(1)
   seuilreussite Float           @default(10)
   credits       Int             @default(0)
   classes       ClasseMatiere[]
   EmploiTemps   EmploiTemps[]
   notes         Note[]
-  evaluations   Evaluation[]
 }
 
 model ClasseMatiere {
@@ -115,6 +110,7 @@ model ClasseMatiere {
   matiereId     String
   enseignantId  String?
   semestre      String
+  coefficient   Float?
   heuresprevues Int?
   enseignant    Enseignant? @relation(fields: [enseignantId], references: [id])
   matiere       Matiere     @relation(fields: [matiereId], references: [id], onDelete: Cascade)
@@ -124,42 +120,27 @@ model ClasseMatiere {
 }
 
 model Semestre {
-  id              String       @id @default(cuid())
+  id              String     @id @default(cuid())
   libelle         String
   datedebut       DateTime
   datefin         DateTime
   anneeacademique String
-  actif           Boolean      @default(false)
-  cloture         Boolean      @default(false)
+  actif           Boolean    @default(false)
+  cloture         Boolean    @default(false)
   bulletins       Bulletin[]
   notes           Note[]
-  evaluations     Evaluation[]
-}
-
-model Evaluation {
-  id          String   @id @default(cuid())
-  type        String // CC, DS, EXAM, etc.
-  date        DateTime @default(now())
-  coefficient Int      @default(1)
-  matiereId   String
-  semestreId  String
-  matiere     Matiere  @relation(fields: [matiereId], references: [id], onDelete: Cascade)
-  semestre    Semestre @relation(fields: [semestreId], references: [id], onDelete: Cascade)
-  notes       Note[]
-
-  @@unique([matiereId, semestreId, type])
 }
 
 model Note {
   id             String      @id @default(cuid())
   valeur         Float
-  datenote       DateTime    @default(now())
+  coefficient    Float       @default(1)
+  typenote       String
+  datenote       DateTime  @default(now())
   appreciation   String?
   etudiantId     String
   matiereId      String
   semestreId     String
-  evaluationId   String
-  bulletinId     String?
   saisiparId     String?
   validee        Boolean     @default(false)
   valideeparId   String?
@@ -169,34 +150,30 @@ model Note {
   semestre       Semestre    @relation(fields: [semestreId], references: [id])
   matiere        Matiere     @relation(fields: [matiereId], references: [id])
   etudiant       Etudiant    @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
-  evaluation     Evaluation  @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
-  bulletin       Bulletin?   @relation(fields: [bulletinId], references: [id])
 
-  @@unique([etudiantId, evaluationId])
+  @@index([etudiantId, matiereId])
   @@index([etudiantId, semestreId])
-  @@index([evaluationId])
+  @@unique([etudiantId, matiereId, semestreId, typenote])
 }
 
 model Bulletin {
-  id                    String    @id @default(cuid())
-  etudiantId            String
-  semestreId            String
-  moyennegenerale       Float?
-  rang                  Int?
-  appreciation          String?
-  decision              String?
-  creditsobtenus        Int?
-  creditstotal          Int?
-  statut                String    @default("BROUILLON")
-  dategeneration        DateTime  @default(now())
-  datepublication       DateTime?
-  qrcodehash            String?   @unique
-  pdfurl                String?
-  semestre              Semestre  @relation(fields: [semestreId], references: [id])
-  etudiant              Etudiant  @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
-  qrcodes               QRCode[]
-  notes                 Note[]
-  notificationsEnvoyees Boolean   @default(false)
+  id              String    @id @default(cuid())
+  etudiantId      String
+  semestreId      String
+  moyennegenerale Float?
+  rang            Int?
+  appreciation    String?
+  decision        String?
+  creditsobtenus  Int?
+  creditstotal    Int?
+  statut          String    @default("BROUILLON")
+  dategeneration  DateTime  @default(now())
+  datepublication DateTime?
+  qrcodehash      String?   @unique
+  pdfurl          String?
+  semestre        Semestre  @relation(fields: [semestreId], references: [id])
+  etudiant        Etudiant  @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+  qrcodes         QRCode[]
 
   @@unique([etudiantId, semestreId])
 }
@@ -204,15 +181,13 @@ model Bulletin {
 model QRCode {
   id                  String    @id @default(cuid())
   hash                String    @unique
-  bulletinId          String?
-  etudiantId          String?
+  bulletinId          String
   dategeneration      DateTime  @default(now())
   dateexpiration      DateTime?
   statut              String    @default("ACTIF")
   utilisations        Int       @default(0)
   derniereutilisation DateTime?
-  bulletin            Bulletin? @relation(fields: [bulletinId], references: [id], onDelete: Cascade)
-  etudiant            Etudiant? @relation(fields: [etudiantId], references: [id], onDelete: Cascade)
+  bulletin            Bulletin  @relation(fields: [bulletinId], references: [id], onDelete: Cascade)
 }
 
 model Log {
@@ -243,15 +218,4 @@ model EmploiTemps {
   classe       Classe      @relation(fields: [classeId], references: [id], onDelete: Cascade)
 
   @@unique([classeId, jour, heureDebut])
-}
-
-model Notification {
-  id        String   @id @default(cuid())
-  userId    String
-  title     String
-  message   String
-  type      String   @default("INFO")
-  read      Boolean  @default(false)
-  createdAt DateTime @default(now())
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

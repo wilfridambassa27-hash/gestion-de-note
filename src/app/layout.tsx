@@ -11,12 +11,6 @@ import { Plus_Jakarta_Sans } from 'next/font/google';
 
 // ── Chargement de la police Google : Plus Jakarta Sans ──
 // Police premium utilisée sur tout le site pour une typographie moderne
-const plusJakarta = Plus_Jakarta_Sans({
-  weight: ['300', '400', '500', '600', '700', '800'],
-  subsets: ['latin'],
-  variable: '--font-jakarta', // Exposée comme variable CSS réutilisable
-  display: 'swap',            // Affiche le texte immédiatement avec la police de secours
-});
 
 // ── Métadonnées SEO globales ──
 // Héritées par toutes les pages sauf si elles définissent leurs propres métadonnées
@@ -38,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     // lang="fr" pour l'accessibilité et le SEO francophone
-    <html lang="fr" suppressHydrationWarning className={plusJakarta.variable}>
+    <html lang="fr" suppressHydrationWarning>
       {/* Police Jakarta San appliquée globalement via CSS variable */}
       <body style={{ fontFamily: "var(--font-jakarta), 'Plus Jakarta Sans', sans-serif" }}>
         <Providers>

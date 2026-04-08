@@ -22,12 +22,12 @@ export default function EnseignantSidebar({ onClose }: { onClose?: () => void })
   
   // ── Définition des éléments du menu ──
   const menuItems = [
-    { icon: LayoutDashboard, label: t('nav_dashboard') || 'Tableau de Bord', href: '/enseignant', desc: 'Vue d\'ensemble' },
-    { icon: Users, label: t('nav_users') || 'Utilisateurs', href: '/enseignant/utilisateurs', desc: 'Gestion élèves' },
-    { icon: Target, label: t('nav_classes') || 'Mes Classes', href: '/enseignant/mes-classes', desc: 'Accès promotions' },
-    { icon: PenLine, label: 'Saisie Notes', href: '/enseignant/saisie-notes', desc: 'Certification' },
-    { icon: BarChart2, label: 'Statistiques', href: '/enseignant/statistiques', desc: 'Performance' },
-    { icon: Settings, label: t('nav_settings') || 'Paramètres', href: '/enseignant/parametres', desc: 'Configuration' },
+    { icon: LayoutDashboard, label: t('nav_dashboard'), href: '/enseignant', desc: t('desc_nav_dashboard') },
+    { icon: Users, label: t('nav_users'), href: '/enseignant/utilisateurs', desc: t('desc_nav_users') },
+    { icon: Target, label: t('nav_classes'), href: '/enseignant/mes-classes', desc: t('desc_nav_classes') },
+    { icon: PenLine, label: t('nav_notes'), href: '/enseignant/saisie-notes', desc: t('desc_nav_notes') },
+    { icon: BarChart2, label: t('nav_stats'), href: '/enseignant/statistiques', desc: t('desc_nav_stats') || 'Performance' },
+    { icon: Settings, label: t('nav_settings'), href: '/enseignant/parametres', desc: t('desc_nav_settings') },
   ]
 
   return (
